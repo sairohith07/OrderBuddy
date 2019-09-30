@@ -93,14 +93,14 @@ provided as an input to the API. As seen in the results, the Order and
 Customize intents have a higher confidence level compared to other
 intents
 
-  **Intent**                                   **Input**                                                                                 **Transcription**                                                  **Confidence Score**
+  **Intent**                                   **Input**                                                       **Transcription**                                                  **Confidence Score**
   ------------------        ----------------------------------------------------                -----------------------------------------------------                            ----------------------
-  **Order**                  can I have one tall white chocolate mocha                       "can I have one tall white chocolate mocha"                                    0.9806791
-  **Customize**         can you please add whipped cream to my coffee             "can you please add whipped cream to my cof- fee"                      0.9849021
-  **Modify**                I want a cafe latte instead                                                  "I want a cafe latte in- stead"                                                           0.935874
-  **Cancel**                I don’t want the coffee                                                       "I don’t want the coffee"                                                                   0.83714724
-  **Exit**                     I’m all set                                                                             "I’m all set"                                                                                       0.971368
-  **Conversation**    I’m waiting for the fall to taste seasonal flavors                   "I’m waiting for the fall to- day seasonal flavors"                            0.95654744
+  **Order**                  can I have one tall white chocolate mocha                            "can I have one tall white chocolate mocha"                                    0.9806791
+  **Customize**              can you please add whipped cream to my coffee                             "can you please add whipped cream to my cof- fee"                         0.9849021
+  **Modify**                 I want a cafe latte instead                                                  "I want a cafe latte in- stead"                                        0.935874
+  **Cancel**                 I don’t want the coffee                                                       "I don’t want the coffee"                                             0.83714724
+  **Exit**                   I’m all set                                                                             "I’m all set"                                               0.971368
+  **Conversation**           I’m waiting for the fall to taste seasonal flavors                   "I’m waiting for the fall to- day seasonal flavors"                            0.95654744
 
 To evaluate the system, we plan to create a list of examples which will
 be labelled manually to the intent they refer to. Each example would be
