@@ -49,6 +49,9 @@ With text in hand, our next objectives include
 
 To achieve a conversation flow, like a chatbot, we would like to implement a state transition back end implementation to navigate between states to respond to each utterance of the user.
 
+![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/order_flowchart.jpeg)
+Figure above explains the flow of conversation Order buddy uses to process to place an order. At the start, number of items (i) as part of the order is 0. The customer is asked if a new item is to be added to the cart along with customisa- tion. If he/she does not wish to add additional items, an order confirmation is requested, after which the order is placed. The customer is also given the flexibility to cancel the order or part of it before confirming the order.
+
 We also plan to explore **Google’s DialogFlow** service to build voice powered conversational interface in the later part of the project.
 
 **PRELIMINARY RESULTS:**
