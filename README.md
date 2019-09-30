@@ -1,6 +1,6 @@
 **ORDER BUDDY - Speech to Text Order Assistant**
 
-**Authors:**
+**AUTHORS:**
 
 Aanchal Samdariya, Karan Gulur Muralidhar, Apoorva Kasoju, Krishna Sai Rohith
 
@@ -26,7 +26,7 @@ OB: Order Confirmed, have a good day!
 
 We want to use a subset of the menu from Starbucks for proof of concept and then aim to expand to any menu.
 
-**Proposed Plan of Research:**
+**PROPOSED PLAN OF RESEARCH:**
 
 **Google Cloud Speech-to-Text** cloud service enables to convert prerecorded or real-time streaming audio to text by applying powerful neural network models in an easy-to-use API. The API recognizes 120 languages and variants to support global user base. We plan to incorporate this service in order to convert orders placed by user in voice to text.
 With text in hand, our next objectives include
@@ -72,7 +72,7 @@ Using the Google Cloud Speech to Text API,table below displays the text transcri
 
 To evaluate the system, we plan to create a list of examples which will be labelled manually to the intent they refer to. Each example would be common phrases used by people to express their intent. This dataset will be used to calculate F1-score for each intent.
 
-**References :**
+**REFERENCES :**
 
 \[1\] **Google Speech-to-text API** : *https://cloud.google.com/speech-to-text/*.
 
