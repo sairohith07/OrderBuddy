@@ -49,7 +49,7 @@ With text in hand, our next objectives include
 
 To achieve a conversation flow, like a chatbot, we would like to implement a state transition back end implementation to navigate between states to respond to each utterance of the user.
 
-![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/order_flowchart.jpeg)
+![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/images/order_flowchart.jpeg)
 
 Figure above explains the flow of conversation Order buddy uses to process to place an order. At the start, number of items (i) as part of the order is 0. The customer is asked if a new item is to be added to the cart along with customisa- tion. If he/she does not wish to add additional items, an order confirmation is requested, after which the order is placed. The customer is also given the flexibility to cancel the order or part of it before confirming the order.
 
@@ -59,7 +59,7 @@ We also plan to explore **Google’s DialogFlow** service to build voice powered
 
 Using the Google Cloud Speech to Text API,table below displays the text transcription along with the confidence level of example dialogue provided as an input to the API. As seen in the results, the Order and Customize intents have a higher confidence level compared to other intents
 
-![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/Intent_Transcription.png)
+![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/images/Intent_Transcription.png)
 
 To evaluate the system, we plan to create a list of examples which will be labelled manually to the intent they refer to. Each example would be common phrases used by people to express their intent. This dataset will be used to calculate F1-score for each intent.
 
