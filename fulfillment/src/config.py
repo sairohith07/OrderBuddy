@@ -1,3 +1,3 @@
 class Config:
-    GOOGLE_PROJECT_ID = "dish-sentiment-analysis"
-    SESSION_ID = "dish-sentiment-analysis-session"
+    CURRENT_ORDER_COLLECTION = u'current_order'
+    HISTORY_COLLECTION = u'current_item_count'
