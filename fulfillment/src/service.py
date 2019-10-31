@@ -26,24 +26,28 @@ class Service:
 
             drinks_dict = doc_ref.get().to_dict().get(u'drinks')
             if (drinks_dict is None):
-                drinks_dict = dict()
+                drinks_dict = {}
+
             if drink_name in drinks_dict:
-                drinks_dict.get(drink_name)[item_number] = drink_size
+                drinks_dict.get(drink_name)[str(item_number)] = {
+                    u'size': drink_size
+                }
             else:
-                drinks_dict[drink_name] = {item_number: drink_size}
+                drinks_dict[drink_name] = {}
+                drinks_dict[drink_name][str(item_number)] = {
+                    u'size': drink_size
+                }
 
             doc_ref.update({
-                u'currentItemCount': item_number,
+                u'current_item_count': item_number,
                 u'drinks': drinks_dict
-                # u'drink': parameters.get('drink')[0],
-                # u'size': parameters.get('size')[0]
             })
         else:
             current_item_count = 0
             item_number = current_item_count + 1
             doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.set({
-                u'currentItemCount': item_number,
+                u'current_item_count': item_number,
                 u'drinks': {
                     drink_name: {
                         str(item_number): {
@@ -52,8 +56,6 @@ class Service:
                     }
                 }
             })
-
-        return {'fulfillmentText': 'This is a response from webhook.Hi'}
 
     def cancel_order_intent(self):
         print("Hi")
