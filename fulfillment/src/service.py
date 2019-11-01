@@ -1,5 +1,6 @@
 from google.cloud import firestore
 
+
 class Service:
 
     def __init__(self, request_parser_object):
@@ -17,7 +18,7 @@ class Service:
 
         # INSERT TO DB (If collection not present, it get's created)
         document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
-        if document_exists == True:
+        if document_exists:
             doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
             doc_ref_dict = doc_ref.get().to_dict()
 
@@ -25,7 +26,7 @@ class Service:
             item_number = current_item_count + 1
 
             drinks_dict = doc_ref.get().to_dict().get(u'drinks')
-            if (drinks_dict is None):
+            if drinks_dict is None:
                 drinks_dict = {}
 
             if drink_name in drinks_dict:
@@ -58,7 +59,11 @@ class Service:
             })
 
     def cancel_order_intent(self):
-        print("Hi")
+        user_id = self.request.userid
+        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        if document_exists:
+            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            doc_ref.delete()
 
     def cancel_item_intent(self):
         print("Hi")
