@@ -5,6 +5,7 @@ from flask import jsonify
 from request_parser import RequestParser
 from service import Service
 
+
 # initialize the flask app
 app = Flask(__name__)
 # default route
@@ -26,7 +27,7 @@ def webhook():
     service = Service(request_parser_object)
     if request_parser_object.intent["displayName"] == "order.intent":
         response_json = service.order_intent()
-    elif request_parser_object.intent["displayName"] == "order.intent.no":
+    elif request_parser_object.intent["displayName"] == "order.intent - no":
         response_json = service.order_intent_no()
     elif request_parser_object.intent["displayName"] == "cancel_order_intent":
         response_json = service.cancel_order_intent()
