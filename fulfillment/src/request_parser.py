@@ -8,6 +8,7 @@ class RequestParser:
 
     def __parse__(self, request):
         request_json = request.get_json(force=True)
+        print(request_json)
         self.parameters = request_json.get('queryResult').get('parameters')
         self.intent = request_json.get('queryResult').get('intent')
 

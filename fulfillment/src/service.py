@@ -57,11 +57,32 @@ class Service:
                 }
             })
 
+    def order_intent_yes(self):
+        print("Hi")
+
+    def order_intent_no(self):
+        response = None
+        user_id = self.request.userid
+
+        # Get the current order for the use
+        doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+        doc_ref_dict = doc_ref.get().to_dict()
+        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+
+        # Formulate the response
+        response = {'fulfillmentText': 'Your order '+str(drinks_dict)+' is confirmed.'}
+
+        ## TODO - Move the existing order from current order to history - (delete item_counter and add timestamp field)
+
+        # Return the response
+        return response
+
     def cancel_order_intent(self):
         print("Hi")
 
     def cancel_item_intent(self):
         print("Hi")
+
 
 
 

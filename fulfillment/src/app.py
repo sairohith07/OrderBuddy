@@ -2,7 +2,6 @@ from flask import Flask
 from flask import request
 from flask import make_response
 from flask import jsonify
-from google.cloud import firestore
 from request_parser import RequestParser
 from service import Service
 
@@ -25,6 +24,8 @@ def webhook():
     service = Service(request_parser_object)
     if request_parser_object.intent["displayName"] == "order.intent":
         response_json = service.order_intent()
+    elif request_parser_object.intent["displayName"] == "order.intent.no":
+        response_json = service.order_intent_no()
 
     # return response
     return make_response(jsonify(response_json))
