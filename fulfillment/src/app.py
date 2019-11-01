@@ -9,9 +9,11 @@ from service import Service
 app = Flask(__name__)
 # default route
 
+
 @app.route('/')
 def index():
     return 'Hello World!'
+
 
 # create a route for webhook
 @app.route('/webhook', methods=['GET', 'POST'])
@@ -26,9 +28,12 @@ def webhook():
         response_json = service.order_intent()
     elif request_parser_object.intent["displayName"] == "order.intent.no":
         response_json = service.order_intent_no()
+    elif request_parser_object.intent["displayName"] == "cancel_order_intent":
+        response_json = service.cancel_order_intent()
 
     # return response
     return make_response(jsonify(response_json))
+
 
 # run the app
 if __name__ == '__main__':
