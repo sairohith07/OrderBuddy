@@ -45,7 +45,7 @@ class Service:
                 u'order_timestamp':firestore_timestamp,
                 u'drinks': drinks_dict
             })
-            response = {'fulfillmentText': 'Your order is updated with item: '+drink_name + '. Do you want to add anything else?'}
+
         else:
             current_item_count = 0
             item_number = current_item_count + 1
@@ -61,13 +61,9 @@ class Service:
                     }
                 }
             })
-            response = {'fulfillmentText': 'Your order is updated with item: '+drink_name + '. Do ypu want to add anything else?'}
 
+        response = {'fulfillmentText': 'Your order is updated with item: '+drink_name + '. Do you want to add anything else?'}
         return response
-            
-
-    def order_intent_yes(self):
-        print("Hi")
 
     def order_intent_no(self):
         response = None
@@ -82,25 +78,44 @@ class Service:
             doc_ref_n.delete()
 
         ## TODO - Move the existing order from current order to history - (delete item_counter and add timestamp field
+        ## TODO - Remove the userID, complete order is dependent on this check
+
         # doc_ref_history=self.firestore_client.collection(u'history').document(user_id)
         # if doc_ref_history.get().exists is False:
         #     doc_ref_dict.update({u'closed_timestamp':self.firestore_timestamp})
         #     self.firestore_client.collection(u'history').document(user_id).set(doc_ref_dict)
 
-        reponse_formatter = ReponseFormatter(drinks_dict)
-        response_string = reponse_formatter.format()
+        response_formatter = ReponseFormatter(drinks_dict)
+        response_string = response_formatter.format_complete_order()
+        print(response_string)
 
         # Return the response
         ## TODO Update the response
-        response = {'fulfillmentText': 'Your order '+response_string+' is confirmed.'}
+        response = {'fulfillmentText': 'Your order \n\n'+response_string+' \n\n is confirmed.'}
         return response
 
-    def cancel_order_intent(self):
+    def cancel_order_intent_yes(self):
         user_id = self.request.userid
         document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
             doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.delete()
+        response = {'fulfillmentText': 'Your order  is cancelled.'}
+        return response
+
+    def complete_order_intent(self):
+        response = None
+        user_id = self.request.userid
+        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        if document_exists:
+            response = {'fulfillmentText': 'Are you sure you want to place the order?'}
+        else:
+            response = {'fulfillmentText': 'There is nothing to cancel the order'}
+        return response
+
+    def complete_order_intent_yes(self):
+        return self.order_intent_no()
+
 
     def cancel_item_intent(self):
         user_id = self.request.userid
@@ -155,6 +170,7 @@ class Service:
             response = 'Done, a '+ deleted_item+' has been removed from your order'
 
         return {'fulfillmentText':response}
+
 
 
 
