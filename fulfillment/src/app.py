@@ -20,14 +20,14 @@ def index():
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     response_json = None
-
+    print(request)
     # Get the request object
     request_parser_object = RequestParser(request)
 
     service = Service(request_parser_object)
-    if request_parser_object.intent["displayName"] == "order.intent":
+    if request_parser_object.intent["displayName"] == "order_intent":
         response_json = service.order_intent()
-    elif request_parser_object.intent["displayName"] == "order.intent - no":
+    elif request_parser_object.intent["displayName"] == "order_intent.no":
         response_json = service.order_intent_no()
     elif request_parser_object.intent["displayName"] == "cancel_order_intent":
         response_json = service.cancel_order_intent()
