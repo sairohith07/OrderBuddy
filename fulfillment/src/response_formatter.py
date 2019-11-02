@@ -1,7 +1,7 @@
 from collections import Counter
 
 
-class ReponseFormatter:
+class ResponseFormatter:
 
     def __init__(self, response_dict):
         self.response_dict = response_dict
@@ -19,8 +19,8 @@ class ReponseFormatter:
         response_string = ""
         order = Counter()
         for drink in list(self.response_dict.keys()):
-            for size in list(self.response_dict[drink].values()):
-                order[(drink, size)] += 1
+            for drink_params in list(self.response_dict[drink].values()):
+                order[(drink, drink_params['size'])] += 1
         for drink in order.keys():
             response_string = response_string + str(order[drink]) + " " + drink[1] + " " + drink[0] + ', '
         return response_string

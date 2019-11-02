@@ -1,5 +1,5 @@
 from google.cloud import firestore
-from response_formatter import ReponseFormatter
+from response_formatter import ResponseFormatter
 
 class Service:
 
@@ -84,7 +84,7 @@ class Service:
         #     doc_ref_dict.update({u'closed_timestamp':self.firestore_timestamp})
         #     self.firestore_client.collection(u'history').document(user_id).set(doc_ref_dict)
 
-        response_formatter = ReponseFormatter(drinks_dict)
+        response_formatter = ResponseFormatter(drinks_dict)
         response_string = response_formatter.format_complete_order()
         print(response_string)
 
