@@ -38,8 +38,8 @@ def webhook():
         response_json = service.cancel_order_intent_yes()
     elif request_parser_object.intent["displayName"] == "complete_order_intent":
         response_json = service.complete_order_intent()
-    elif request_parser_object.intent["displayName"] == "complete_order_intent.yes":
-        response_json = service.complete_order_intent_yes()
+    elif request_parser_object.intent["displayName"] == "complete_order_intent.continue":
+        response_json = service.complete_order_intent_continue()
 
 
     # return response

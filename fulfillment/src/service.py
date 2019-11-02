@@ -131,13 +131,16 @@ class Service:
             response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
             response = response_formatter_object.format_cancel_intent_response()
 
-        else:
-            response = "Do you want to delete the last item?"
+        elif('drink' not in parameters):
+            response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
+            response = response_formatter_object.format_cancel_intent_response()
+
+        elif(pa)
         print("sending")
         print(response)
         return {'fulfillmentText':response}
 
-    def cancel_item_intent_yes(self):
+    def cancel_item_intent_continue(self):
 
         user_id = self.request.userid
         parameters = self.request.parameters
