@@ -99,7 +99,29 @@ class Service:
             doc_ref.delete()
 
     def cancel_item_intent(self):
-        print("Hi")
+        user_id = self.request.userid
+        parameters = self.request.parameters
+
+        print(parameters)
+
+        doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+        doc_ref_dict = doc_ref.get().to_dict()
+        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+
+        response = "Please say"
+        count = 1
+        print(drinks_dict)
+        print(parameters['drink'])
+        if(parameters['drink'] in drinks_dict):
+            chosen_drinks = drinks_dict[parameters['drink']]
+            current_drink = parameters['drink']
+            for each_item_num in chosen_drinks:
+                response+= ", item number "+str(count)+" for "+chosen_drinks[each_item_num]['size']+" "+current_drink
+                count+=1
+
+        return {'fulfillmentText':response}
+
+
 
 
 

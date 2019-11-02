@@ -31,6 +31,9 @@ def webhook():
         response_json = service.order_intent_no()
     elif request_parser_object.intent["displayName"] == "cancel_order_intent":
         response_json = service.cancel_order_intent()
+    elif request_parser_object.intent["displayName"] == "cancel_item_intent":
+        response_json = service.cancel_item_intent()
+
 
     # return response
     return make_response(jsonify(response_json))
