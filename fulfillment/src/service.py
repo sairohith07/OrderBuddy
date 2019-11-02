@@ -84,8 +84,9 @@ class Service:
         #     doc_ref_dict.update({u'closed_timestamp':self.firestore_timestamp})
         #     self.firestore_client.collection(u'history').document(user_id).set(doc_ref_dict)
 
-        reponse_formatter = ReponseFormatter(drinks_dict)
-        response_string = reponse_formatter.format()
+        response_formatter = ReponseFormatter(drinks_dict)
+        response_string = response_formatter.format_complete_order()
+        print(response_string)
 
         # Return the response
         ## TODO Update the response
