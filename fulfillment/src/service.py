@@ -72,7 +72,7 @@ class Service:
         # Get the current order for the use
         doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
         doc_ref_dict = doc_ref.get().to_dict()
-        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+        drinks_dict = doc_ref_dict.get(u'drinks')
         if doc_ref.get().exists:
             doc_ref_n = self.firestore_client.collection(u'current_order').document(user_id)
             doc_ref_n.delete()
@@ -124,7 +124,10 @@ class Service:
         print(parameters)
 
         doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
-        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+        doc_ref_dict = doc_ref.get().to_dict()
+        drinks_dict = doc_ref_dict.get(u'drinks')
+        current_item_count = doc_ref_dict.get(u'current_item_count')
+
 
 
         if('drink' in parameters and parameters['drink'] in drinks_dict):
@@ -132,10 +135,20 @@ class Service:
             response = response_formatter_object.format_cancel_intent_response()
 
         elif('drink' not in parameters):
+            drink_desc = ""
+            for each_category in drinks_dict:
+                drinks_in_category = drinks_dict[each_category]
+                for each_item_num in drinks_in_category:
+                    if(each_item_num == current_item_count):
+                        drink_desc += drinks_in_category[each_item_num]['size']+" "+each_category
+
+            response_formatter_object = ReponseFormatter(current_item_count,drink_desc)
+            response = response_formatter_object.format_delete_last_item_response()
+
+        elif(parameters['drink'] not in drinks_dict):
             response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
             response = response_formatter_object.format_cancel_intent_response()
 
-        elif(pa)
         print("sending")
         print(response)
         return {'fulfillmentText':response}
@@ -167,12 +180,20 @@ class Service:
                     })
                     break
 
-        response = 'This item is not part of your order. Which item would you like to cancel?'
+        response = ""
 
         if(deleted_item_stat):
             response = 'Done, a '+ deleted_item+' has been removed from your order'
+        else:
+            response =
 
         return {'fulfillmentText':response}
+
+    def cancel_item_intent_no(self):
+        response_formatter_object = ReponseFormatter()
+        response = response_formatter_object.format_cancel_item_intent_no()
+
+        return {'fulfillmentText' :response}
 
 
 
