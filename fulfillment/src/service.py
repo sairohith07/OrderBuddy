@@ -102,8 +102,36 @@ class Service:
             doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.delete()
 
-    def cancel_item_intent(self):
-        print("Hi")
+    def cancel_item_intent_absent(self):
+
+        user_id = self.request.userid
+        parameters = self.request.parameters
+        cancel_item_number = parameters.get('cancel_item')[0]
+
+        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        if document_exists:
+            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+
+        # to check if item_number present in order
+        item_number_set = set()
+        for i in list(drinks_dict.keys()):
+            item_number_set.add(list(drinks_dict[i].keys())[0])
+        if cancel_item_number not in item_number_set:
+            response = {'This item is not part of your order. Which item would you like to cancel?'}
+        return response
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
