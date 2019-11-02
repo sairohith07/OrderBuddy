@@ -45,6 +45,7 @@ class Service:
                 u'order_timestamp':firestore_timestamp,
                 u'drinks': drinks_dict
             })
+
         else:
             current_item_count = 0
             item_number = current_item_count + 1
@@ -115,11 +116,32 @@ class Service:
     def complete_order_intent_yes(self):
         return self.order_intent_no()
 
-    def cancel_item_intent_absent(self):
+
+    def cancel_item_intent(self):
+        user_id = self.request.userid
+        parameters = self.request.parameters
+
+        print(parameters)
+
+        doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+
+
+        if('drink' in parameters and parameters['drink'] in drinks_dict):
+            response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
+            response = response_formatter_object.format_cancel_intent_response()
+
+        else:
+            response = "Do you want to delete the last item?"
+        print("sending")
+        print(response)
+        return {'fulfillmentText':response}
+
+    def cancel_item_intent_yes(self):
 
         user_id = self.request.userid
         parameters = self.request.parameters
-        cancel_item_number = parameters.get('cancel_item')[0]
+        cancel_item_number = str(int(parameters.get('number')))
 
         document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
@@ -127,23 +149,27 @@ class Service:
             drinks_dict = doc_ref.get().to_dict().get(u'drinks')
 
         # to check if item_number present in order
+        deleted_item_stat = False
+        deleted_item = ''
         item_number_set = set()
-        for i in list(drinks_dict.keys()):
-            item_number_set.add(list(drinks_dict[i].keys())[0])
-        if cancel_item_number not in item_number_set:
-            response = {'This item is not part of your order. Which item would you like to cancel?'}
-        return response
+        for each_category in drinks_dict:
+            category_drinks = drinks_dict[each_category]
+            for each_item_num in category_drinks:
+                if(each_item_num == cancel_item_number):
+                    deleted_item_stat = True
+                    deleted_item += category_drinks[each_item_num]['size'] + " " + each_category
+                    del drinks_dict[each_category][each_item_num]
+                    doc_ref.update({
+                        u'drinks': drinks_dict
+                    })
+                    break
 
+        response = 'This item is not part of your order. Which item would you like to cancel?'
 
+        if(deleted_item_stat):
+            response = 'Done, a '+ deleted_item+' has been removed from your order'
 
-
-
-
-
-
-
-
-
+        return {'fulfillmentText':response}
 
 
 

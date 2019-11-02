@@ -29,12 +29,18 @@ def webhook():
         response_json = service.order_intent()
     elif request_parser_object.intent["displayName"] == "order_intent.no":
         response_json = service.order_intent_no()
+    elif request_parser_object.intent["displayName"] == "cancel_item_intent":
+        response_json = service.cancel_item_intent()
+    elif request_parser_object.intent["displayName"] == "cancel_item_intent.yes":
+        response_json = service.cancel_item_intent_yes()
+
     elif request_parser_object.intent["displayName"] == "cancel_order_intent.yes":
         response_json = service.cancel_order_intent_yes()
     elif request_parser_object.intent["displayName"] == "complete_order_intent":
         response_json = service.complete_order_intent()
     elif request_parser_object.intent["displayName"] == "complete_order_intent.yes":
         response_json = service.complete_order_intent_yes()
+
 
     # return response
     return make_response(jsonify(response_json))
