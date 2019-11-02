@@ -14,14 +14,13 @@ class ResponseFormatter:
                 response_string += "," + item_number + " for " +drink_name_dict[item_number]['size'] +" "+ item_name + " "
         return response_string
 
-
     def format_complete_order(self):
-        response_string = ""
-        order = Counter()
+        response_string = "This item is not part of the order. The items in the order are: "
+        order_drinks = set()
         for drink in list(self.response_dict.keys()):
-            for drink_params in list(self.response_dict[drink].values()):
-                order[(drink, drink_params['size'])] += 1
-        for drink in order.keys():
-            response_string = response_string + str(order[drink]) + " " + drink[1] + " " + drink[0] + ', '
+            order_drinks.add(drink)
+        for drink_name in order_drinks.keys():
+            response_string = response_string + drink_name + ', '
+        response_string = response_string + "Please say Cancel along with the item to be removed"
         return response_string
 
