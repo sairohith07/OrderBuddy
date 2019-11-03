@@ -130,30 +130,69 @@ class Service:
 
 
 
-        if('drink' in parameters and parameters['drink'] in drinks_dict):
-            response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
+        if(len(parameters['drink'])>0 and parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0 ):
+            response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
             response = response_formatter_object.format_cancel_intent_response()
 
-        elif('drink' not in parameters):
+        elif(len(parameters['drink']) == 0 or len(drinks_dict[parameters['drink']])==0):
             drink_desc = ""
+            last_item_stat = False
             for each_category in drinks_dict:
                 drinks_in_category = drinks_dict[each_category]
                 for each_item_num in drinks_in_category:
                     if(each_item_num == current_item_count):
                         drink_desc += drinks_in_category[each_item_num]['size']+" "+each_category
+                        last_item_stat = True
 
-            response_formatter_object = ReponseFormatter(current_item_count,drink_desc)
-            response = response_formatter_object.format_delete_last_item_response()
+            if not last_item_stat:
+                current_item_count = 1
+                for each_category in drinks_dict:
+                    drinks_in_category = drinks_dict[each_category]
+                    for each_item_num in drinks_in_category:
+                        if(int(each_item_num))>current_item_count:
+                            current_item_count = int(each_item_num)
+                            drink_desc = drinks_in_category[each_item_num]['size'] + " " + each_category
 
+            doc_ref.update({
+                u'current_item_count': current_item_count
+            })
+
+            response_formatter_object = ResponseFormatter({})
+            response = response_formatter_object.format_delete_last_item_response(current_item_count,drink_desc)
+            print('here!    ')
         elif(parameters['drink'] not in drinks_dict):
-            response_formatter_object = ReponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
-            response = response_formatter_object.format_cancel_intent_response()
+            response_formatter_object = ResponseFormatter(drinks_dict)
+            response = response_formatter_object.format_cancel_item_not_exist()
 
         print("sending")
         print(response)
         return {'fulfillmentText':response}
 
+    # Helper function tto handle deletion
+    def cancel_item_intent_continue_helper(self,cancel_item_number,drinks_dict,doc_ref):
+        deleted_item_stat = False
+        deleted_item = ""
+        for each_category in drinks_dict:
+            category_drinks = drinks_dict[each_category]
+            for each_item_num in category_drinks:
+                if(each_item_num == cancel_item_number):
+                    deleted_item_stat = True
+                    deleted_item = category_drinks[each_item_num]['size'] + " " + each_category
+                    len_dict = len(drinks_dict[each_category])
+                    del drinks_dict[each_category][each_item_num]
+                    if(len_dict==1):
+                        del drinks_dict[each_category]
+                    doc_ref.update({
+                        u'drinks': drinks_dict
+                    })
+                    return deleted_item_stat,deleted_item
+        return deleted_item_stat,deleted_item
+
     def cancel_item_intent_continue(self):
+
+        print("cancel_item_intent_continue")
+        print("--------------------------------------")
+
 
         user_id = self.request.userid
         parameters = self.request.parameters
@@ -164,36 +203,21 @@ class Service:
             doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
             drinks_dict = doc_ref.get().to_dict().get(u'drinks')
 
+        print(drinks_dict)
         # to check if item_number present in order
-        deleted_item_stat = False
-        deleted_item = ''
-        item_number_set = set()
-        for each_category in drinks_dict:
-            category_drinks = drinks_dict[each_category]
-            for each_item_num in category_drinks:
-                if(each_item_num == cancel_item_number):
-                    deleted_item_stat = True
-                    deleted_item += category_drinks[each_item_num]['size'] + " " + each_category
-                    del drinks_dict[each_category][each_item_num]
-                    doc_ref.update({
-                        u'drinks': drinks_dict
-                    })
-                    break
+        deleted_item_stat, deleted_item = self.cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref)
 
-        response = ""
+        response = 'Done, a ' + deleted_item + ' has been removed from your order'
 
-        if(deleted_item_stat):
-            response = 'Done, a '+ deleted_item+' has been removed from your order'
-        else:
-            response =
+        if not deleted_item_stat:
+            response_formatter_object = ResponseFormatter(drinks_dict)
+            response = response_formatter_object.format_cancel_item_not_exist()
+
+        print(response)
+        print(deleted_item_stat)
+        print(deleted_item)
 
         return {'fulfillmentText':response}
-
-    def cancel_item_intent_no(self):
-        response_formatter_object = ReponseFormatter()
-        response = response_formatter_object.format_cancel_item_intent_no()
-
-        return {'fulfillmentText' :response}
 
 
 

@@ -15,9 +15,11 @@ class ResponseFormatter:
         return response_string
 
     def format_delete_last_item_response(self,last_item_num,item_desc):
-        response_string = "Are you sure you want to delete the last item? Please say "
+        response_string = "Are you sure you want to delete "+item_desc +" Please say "
         response_string+= str(last_item_num)+" to remove "+item_desc
         response_string+= " from your order or No! to abort cancel"
+
+        return response_string
 
     def format_complete_order(self):
         response_string = ""
@@ -38,6 +40,5 @@ class ResponseFormatter:
             response_string = response_string + drink_name + ', '
         response_string = response_string + "Please say cancel along with the item to be removed"
         return response_string
-    def format_cancel_item_intent_no(self):
-        response_sring = "Lets continue with your order.  Do you want to add anything else?"
+
 
