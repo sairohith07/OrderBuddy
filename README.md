@@ -2,22 +2,22 @@
 
 **AUTHORS:**
 
-Aanchal Samdariya, Karan Gulur Muralidhar, Apoorva Kasoju, Krishna Sai Rohith
+Aanchal Samdariya, Karan Gulur Muralidhar, Apoorva Kasoju, Krishna Sai Rohith Kanuparti
 
 **SUMMARY:**
 
 Traditional way of placing an order involves repetitive manual labour, be it giving/taking orders face to face at an eatery or using mobile/web applications for ordering. Leveraging increase in popularity of hands free assistant such as Google Home and Alexa, we enable  conversational agent to work as a Speech-to-text Order Assistant. The user will be given  the ability to navigate through all phases of order management
 (i.e., placing an order, modifying the existing order and cancel an item/order), in effect, have a conversation and be able to place an order hands free.The following could be an example of the kind of conversation possible with Order Buddy:
  
-OB: Hey there! What do you want to order? 
-Cust: I want a Mocha Latte. 
-OB: What size? 
-Cust: Large 
-OB: Got it, one large Mocha Latte. Do you want to order anything else? 
-Cust: One small Coffee please. 
-OB: Got it, one small Coffee. Do you want to order anything else?
-Cust: No, that's it. 
-OB: Order for 1 large Mocha Latte and 1 small Coffee is Confirmed, have a good day! 
+OB: Hey there! What do you want to order?  
+Cust: I want a Mocha Latte.  
+OB: What size?  
+Cust: Large  
+OB: Got it, one large Mocha Latte. Do you want to order anything else?  
+Cust: One small Coffee please.  
+OB: Got it, one small Coffee. Do you want to order anything else?  
+Cust: No, that's it.  
+OB: Order for 1 large Mocha Latte and 1 small Coffee is Confirmed, have a good day!   
 
 As of now, the above conversation has been accomplished. To achieve this, we have business logic to handle four different intents - Order intent, Cancel Item intent, Cancel Order intent and Complete order intent.
 The current and history of all orders are stored for future reference in the Google's Firestore database. A subset of the menu from Starbucks is used as the dataset for our project. 
@@ -28,7 +28,7 @@ As part of further enhancements, we would like to include more intents for examp
 
 In the initial phase of the presentation, a basic implementation of entity identification and state transitions is handled with the help of Google Cloud Dialogflow and Firestore services and business logic code. A user will be able to have a conversation with the order buddy bot and order multiple items at a restaurant.
 
-For the second phase of the project, we would like to extend the functionality of the basic bot and also make it error-free. The following are some of the additional features considered.
+For the second phase of the project, we would like to extend the functionality of the basic bot and also make it more robust and error-free. The following are some of the additional features considered:
 
 - We will enable the bot to support additional intents like modify intent (add customization to each item).
 - The model is to be improved in order to identify intents more efficiently. This we plan to achieve by enlarging the training set of phrases used to identify each intent.
@@ -38,7 +38,7 @@ For the second phase of the project, we would like to extend the functionality o
 
 To evaulate the system, we plan to prepare a Goggle survey to collect a variety of examples for each intent and test these examples against our service. We will calculate F1-score for each intent to evaluate our service.
 
-**PRELIMNARY RESULTS:**
+**PRELIMINARY RESULTS:**
 
 The image below represents sample conversation using our agent.
 
