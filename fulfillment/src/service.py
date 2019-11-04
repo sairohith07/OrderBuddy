@@ -62,7 +62,7 @@ class Service:
                 }
             })
 
-        response = {'fulfillmentText': 'Your order is updated with item: '+drink_name + '. Do you want to add anything else?'}
+        response = {'fulfillmentText': 'Your order is updated with a ' + drink_size + ' ' drink_name + '. Do you want to add anything else?'}
         return response
 
     def order_intent_no(self):
@@ -218,7 +218,7 @@ class Service:
         # to check if item_number present in order
         deleted_item_stat, deleted_item = self.cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref)
 
-        response = 'Done, a ' + deleted_item + ' has been removed from your order'
+        response = 'Done, a ' + deleted_item + ' has been removed from your order.'
 
         if not deleted_item_stat:
             response_formatter_object = ResponseFormatter(drinks_dict)
