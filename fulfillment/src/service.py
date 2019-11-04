@@ -62,7 +62,7 @@ class Service:
                 }
             })
 
-        response = {'fulfillmentText': 'Your order is updated with a ' + drink_size + ' ' drink_name + '. Do you want to add anything else?'}
+        response = {'fulfillmentText': 'Your order is updated with a ' + drink_size + ' ' + drink_name + '. Do you want to add anything else?'}
         return response
 
     def order_intent_no(self):
