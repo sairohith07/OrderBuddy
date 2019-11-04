@@ -221,7 +221,7 @@ class Service:
         deleted_item_stat, deleted_item = self.cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref)
 
         response = 'Done, a ' + deleted_item + ' has been removed from your order. ' \
-                                               'To continue with the order , say for ex: "I want a small coffee" ' \
+                                               'To continue with the order , say an item name ' \
                                                'or to complete your order, say "COMPLETE ORDER"'
 
         if not deleted_item_stat:
@@ -232,7 +232,7 @@ class Service:
         print(deleted_item_stat)
         print(deleted_item)
 
-        return {'fulfillmentText':response}
+        return {'fulfillmentText': response}
 
 
 
