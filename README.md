@@ -30,12 +30,13 @@ In the initial phase of the presentation, a basic implementation of entity ident
 
 For the second phase of the project, we would like to extend the functionality of the basic bot and also make it error-free. The following are some of the additional features considered.
 
-- Enable the bot to support modify intent (add customization to each item).
-- Improve the model to identify intents. This we plan to achieve by enlarging the training set of phrases used to identify each intent.
-- Third-Party Integrations such as Google Assistant, Phone and FB messenger.
-- Support this service for multiple restaurants.
+- We will enable the bot to support additional intents like modify intent (add customization to each item).
+- The model is to be improved in order to identify intents more efficiently. This we plan to achieve by enlarging the training set of phrases used to identify each intent.
+- Integration of our service with third-party agents such as Google Assistant, Phone or FB messenger will be enabled.
+- We want to enable this service to support multiple restaurants instead of just a single one.
 - Convert menu image to text to simplify the process of defining the entity for each restaurant.
 
+To evaulate the system, we plan to prepare a Goggle survey to collect a variety of examples for each intent and test these examples against our service. We will calculate F1-score for each intent to evaluate our service.
 
 **PRELIMNARY RESULTS:**
 
