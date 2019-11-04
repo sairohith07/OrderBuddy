@@ -7,7 +7,7 @@ class ResponseFormatter:
         self.response_dict = response_dict
 
     def format_cancel_intent_response(self):
-        response_string = "Please say "
+        response_string = "Are you sure you want to cancel? Please say "
         for item_name in self.response_dict.keys():
             drink_name_dict = self.response_dict[item_name]
             for item_number in drink_name_dict.keys():
