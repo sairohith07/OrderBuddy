@@ -25,22 +25,21 @@ def webhook():
     # Get the request object
     request_parser_object = RequestParser(request)
 
-    service = Service(request_parser_object)
     if request_parser_object.intent["displayName"] == "order_intent":
-        response_json = service.order_intent()
+        response_json = Service.order_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == "order_intent.no":
-        response_json = service.order_intent_no()
+        response_json = Service.order_intent_no(request_parser_object)
     elif request_parser_object.intent["displayName"] == "cancel_item_intent":
-        response_json = service.cancel_item_intent()
+        response_json = Service.cancel_item_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == "cancel_item_intent.continue":
-        response_json = service.cancel_item_intent_continue()
+        response_json = Service.cancel_item_intent_continue(request_parser_object)
 
     elif request_parser_object.intent["displayName"] == "cancel_order_intent.yes":
-        response_json = service.cancel_order_intent_yes()
+        response_json = Service.cancel_order_intent_yes(request_parser_object)
     elif request_parser_object.intent["displayName"] == "complete_order_intent":
-        response_json = service.complete_order_intent()
+        response_json = Service.complete_order_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == "complete_order_intent.yes":
-        response_json = service.complete_order_intent_yes()
+        response_json = Service.complete_order_intent_yes(request_parser_object)
 
 
     # return response

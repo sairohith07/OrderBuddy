@@ -1,27 +1,33 @@
 from google.cloud import firestore
+
+from factory import Factory
 from response_formatter import ResponseFormatter
 
 
 class Service:
 
-    def __init__(self, request_parser_object):
-        self.firestore_client = firestore.Client()
-        self.request = request_parser_object
+    @staticmethod
+    def order_intent(request):
 
-    def order_intent(self):
-
-        user_id = self.request.userid
-        parameters = self.request.parameters
+        user_id = request.userid
+        parameters = request.parameters
         firestore_timestamp = firestore.SERVER_TIMESTAMP
+
+        if ('drink' not in parameters) or (parameters['drink'] == ""):
+            response = {'fulfillmentText': 'Drink name is not present'}
+            return response
+        if ('size' not in parameters) or (parameters['size'] == ""):
+            response = {'fulfillmentText': 'Drink size is not present'}
+            return response
 
         # Assumption - Only one item per request.
         drink_name = parameters.get('drink')[0]
         drink_size = parameters.get('size')[0]
 
         # INSERT TO DB (If collection not present, it get's created)
-        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
-            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
             doc_ref_dict = doc_ref.get().to_dict()
 
             current_item_count = doc_ref_dict.get(u'current_item_count')
@@ -50,7 +56,7 @@ class Service:
         else:
             current_item_count = 0
             item_number = current_item_count + 1
-            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.set({
                 u'current_item_count': item_number,
                 u'order_timestamp':firestore_timestamp,
@@ -67,12 +73,13 @@ class Service:
 
         return response
 
-    def order_intent_no(self):
+    @staticmethod
+    def order_intent_no(request):
         response = None
-        user_id = self.request.userid
+        user_id = request.userid
 
         # Get the current order for the user
-        doc_ref_current_order = self.firestore_client.collection(u'current_order').document(user_id)
+        doc_ref_current_order = Factory.firestore_client.collection(u'current_order').document(user_id)
         if doc_ref_current_order.get().exists:
 
             # create key  closed timestamp for the order
@@ -84,7 +91,7 @@ class Service:
             del doc_ref_dict[u'current_item_count']
             drinks_dict = doc_ref_current_order.get().to_dict().get(u'drinks')
 
-            doc_ref_history = self.firestore_client.collection(u'history').document(user_id)
+            doc_ref_history = Factory.firestore_client.collection(u'history').document(user_id)
             if doc_ref_history.get().exists:
                 orders_dict = doc_ref_history.get().to_dict().get(u'orders')
                 if orders_dict is None:
@@ -105,21 +112,21 @@ class Service:
 
         return response
 
-
-
-    def cancel_order_intent_yes(self):
-        user_id = self.request.userid
-        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+    @staticmethod
+    def cancel_order_intent_yes(request):
+        user_id = request.userid
+        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
-            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.delete()
         response = {'fulfillmentText': 'Your order  is cancelled.'}
         return response
 
-    def complete_order_intent(self):
+    @staticmethod
+    def complete_order_intent(request):
         response = None
-        user_id = self.request.userid
-        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        user_id = request.userid
+        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
             response = {'fulfillmentText': 'Are you sure you want to place the order?'}
         else:
@@ -129,19 +136,17 @@ class Service:
     def complete_order_intent_yes(self):
         return self.order_intent_no()
 
-
-    def cancel_item_intent(self):
-        user_id = self.request.userid
-        parameters = self.request.parameters
+    @staticmethod
+    def cancel_item_intent(request):
+        user_id = request.userid
+        parameters = request.parameters
 
         print(parameters)
 
-        doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+        doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
         doc_ref_dict = doc_ref.get().to_dict()
         drinks_dict = doc_ref_dict.get(u'drinks')
         current_item_count = doc_ref_dict.get(u'current_item_count')
-
-
 
         if(len(parameters['drink'])>0 and parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0 ):
             response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
@@ -182,7 +187,8 @@ class Service:
         return {'fulfillmentText':response}
 
     # Helper function tto handle deletion
-    def cancel_item_intent_continue_helper(self,cancel_item_number,drinks_dict,doc_ref):
+    @staticmethod
+    def cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref):
         deleted_item_stat = False
         deleted_item = ""
         for each_category in drinks_dict:
@@ -201,24 +207,25 @@ class Service:
                     return deleted_item_stat,deleted_item
         return deleted_item_stat,deleted_item
 
-    def cancel_item_intent_continue(self):
+    @staticmethod
+    def cancel_item_intent_continue(request):
 
         print("cancel_item_intent_continue")
         print("--------------------------------------")
 
 
-        user_id = self.request.userid
-        parameters = self.request.parameters
+        user_id = request.userid
+        parameters = request.parameters
         cancel_item_number = str(int(parameters.get('number')))
 
-        document_exists = self.firestore_client.collection(u'current_order').document(user_id).get().exists
+        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
-            doc_ref = self.firestore_client.collection(u'current_order').document(user_id)
+            doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
             drinks_dict = doc_ref.get().to_dict().get(u'drinks')
 
         print(drinks_dict)
         # to check if item_number present in order
-        deleted_item_stat, deleted_item = self.cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref)
+        deleted_item_stat, deleted_item = Service.cancel_item_intent_continue_helper(cancel_item_number,drinks_dict,doc_ref)
 
         response = 'Done, a ' + deleted_item + ' has been removed from your order. ' \
                                                'To continue with the order , say for ex: "I want a small coffee" ' \
