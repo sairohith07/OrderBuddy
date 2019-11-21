@@ -2,66 +2,53 @@
 
 **AUTHORS:**
 
-Aanchal Samdariya, Karan Gulur Muralidhar, Apoorva Kasoju, Krishna Sai Rohith
+Aanchal Samdariya, Karan Gulur Muralidhar, Apoorva Kasoju, Krishna Sai Rohith Kanuparti
 
 **SUMMARY:**
 
-Traditional way of placing an order involves repetitive manual labour,be it giving/taking orders face to face at an eatery or using mobile/web ordering.Leveraging increase in popularity of hands free assistants such as Google Home and Alexa, we enable conversational agent to work as a Speech-to-text Order Assistant.
-The user will be given the ability to navigate through all phases of order management(i.e., placing an order, modifying the existing order and cancel an item/order), in effect, have a conversation and be able to place an order hands free.
-The following could be an example of the kind of conversation possible with Order Buddy
+Traditional way of placing an order involves repetitive manual labour, be it giving/taking orders face to face at an eatery or using mobile/web applications for ordering. Leveraging increase in popularity of hands free assistant such as Google Home and Alexa, we enable  conversational agent to work as a Speech-to-text Order Assistant. The user will be given  the ability to navigate through all phases of order management
+(i.e., placing an order, modifying the existing order and cancel an item/order), in effect, have a conversation and be able to place an order hands free.The following could be an example of the kind of conversation possible with Order Buddy:
+ 
+OB: Hey there! What do you want to order?  
+Cust: I want a Mocha Latte.  
+OB: What size?  
+Cust: Large  
+OB: Got it, one large Mocha Latte. Do you want to order anything else?  
+Cust: One small Coffee please.  
+OB: Got it, one small Coffee. Do you want to order anything else?  
+Cust: No, that's it.  
+OB: Order for 1 large Mocha Latte and 1 small Coffee is Confirmed, have a good day!   
 
-OB: Hey there! What do you want to order today?
+As of now, the above conversation has been accomplished. To achieve this, we have business logic to handle four different intents - Order intent, Cancel Item intent, Cancel Order intent and Complete order intent.
+The current and history of all orders are stored for future reference in the Google's Firestore database. A subset of the menu from Starbucks is used as the dataset for our project. 
 
-Cust: I want a Mocha Latte.
-
-OB: Got it, one Mocha Latte, Do you want to customize this item?
-
-Cust: Can you add extra sugar please
-
-OB: Got it, one Mocha Latte with extra sugar. Do you want to order anything else?
-
-Cust: No.
-
-OB: Order Confirmed, have a good day!
-
-We want to use a subset of the menu from Starbucks for proof of concept and then aim to expand to any menu.
+As part of further enhancements, we would like to include more intents for example, to handle modification to orders. We would also want to improve the intent identification model and integrate our service with third-party assistants, which is explained in more detail in the below section.
 
 **PROPOSED PLAN OF RESEARCH:**
 
-**Google Cloud Speech-to-Text** cloud service enables to convert prerecorded or real-time streaming audio to text by applying powerful neural network models in an easy-to-use API. The API recognizes 120 languages and variants to support global user base. We plan to incorporate this service in order to convert orders placed by user in voice to text.
-With text in hand, our next objectives include
+In the initial phase of the presentation, a basic implementation of entity identification and state transitions is handled with the help of Google Cloud Dialogflow and Firestore services and business logic code. A user will be able to have a conversation with the order buddy bot and order multiple items at a restaurant.
 
--   Item Extraction: Each restaurant comes with their own naming standards for an item. The ability to identify an item from the user text and match with an existing menu item is not a straightforward task. Current NLP services like **Google Cloud Natural Language API** have state of the art solutions to extract people, location and organization names but to recognize domain-specific entities like item names, a custom entity extraction model may be needed.
+For the second phase of the project, we would like to extend the functionality of the basic bot and also make it more robust and error-free. The following are some of the additional features considered:
 
--   Intent Identification: A user can have one of the following intents
+- We will enable the bot to support additional intents like modify intent (add customization to each item).
+- The model is to be improved in order to identify intents more efficiently. This we plan to achieve by enlarging the training set of phrases used to identify each intent.
+- Integration of our service with third-party agents such as Google Assistant, Phone or FB messenger will be enabled.
+- We want to enable this service to support multiple restaurants instead of just a single one.
+- Convert menu image to text to simplify the process of defining the entity for each restaurant.
 
-    -   **Order Intent**:The users wishes to place an order
-
-    -   **Customize Intent**:The user wishes to customize add-ons for previously placed order
-
-    -   **Modify Intent**:The user wishes to modify previously placed order
-
-    -   **Cancel Intent**:The user wishes to cancel a previously placed order
-        
-    -   **Exit Intent**:The user wishes to complete order/end conversation
-
-    -   **Conversation Intent**: The user requests information/expects answer from a casual communication(outside the order scope)
-
-To achieve a conversation flow, like a chatbot, we would like to implement a state transition back end implementation to navigate between states to respond to each utterance of the user.
-
-![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/images/order_flowchart.jpeg)
-
-Figure above explains the flow of conversation Order buddy uses to process to place an order. At the start, number of items (i) as part of the order is 0. The customer is asked if a new item is to be added to the cart along with customisa- tion. If he/she does not wish to add additional items, an order confirmation is requested, after which the order is placed. The customer is also given the flexibility to cancel the order or part of it before confirming the order.
-
-We also plan to explore **Google’s DialogFlow** service to build voice powered conversational interface in the later part of the project.
+To evaulate the system, we plan to prepare a Goggle survey to collect a variety of examples for each intent and test these examples against our service. We will calculate F1-score for each intent to evaluate our service.
 
 **PRELIMINARY RESULTS:**
 
-Using the Google Cloud Speech to Text API,table below displays the text transcription along with the confidence level of example dialogue provided as an input to the API. As seen in the results, the Order and Customize intents have a higher confidence level compared to other intents
+The image below represents sample conversation using our agent.
 
-![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/images/Intent_Transcription.png)
+![alt text](https://github.com/sairohith07/OrderBuddy/blob/master/images/Complete_conversation.png)
 
-To evaluate the system, we plan to create a list of examples which will be labelled manually to the intent they refer to. Each example would be common phrases used by people to express their intent. This dataset will be used to calculate F1-score for each intent.
+A sample conversation in above figure  shows the transition of intents based on user's utterances and context mapping, along with responses.
+As seen in the figure mentioned, a typical user wishes to have a small coffee in first figure of the flow. Upon receiving user's voice input, it is converted to text. The intent is identified and agent looks for required entities to fulfill the order and hence prompts the user to specify, i.e., size(second figure in the flow). Once the slot-filling(required entities) is accomplished, the Firestore database is updated with the current order information for the user as part of the business logic and the user is notified about the same (third figure in the flow), including in response if he wants to add anything more.
+Here, the user expresses his intent to cancel one of items(fourth figure in the flow), for which the follow-up intent is triggered and the agent responds by providing options for the user to choose for cancel. After the user provides the option, the agent confirms the cancellation and prompts user to choose to continue or complete the order(fifth figure in the flow).
+If the user wishes to complete the order, the agent prompts to confirm to place the order and a positive response results in placing/completing the order(sixth figure).
+
 
 **REFERENCES :**
 
