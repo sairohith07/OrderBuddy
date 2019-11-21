@@ -127,7 +127,6 @@ class Service:
     def complete_order_intent_yes(self):
         return self.order_intent_no()
 
-
     def cancel_item_intent(self):
         user_id = self.request.userid
         parameters = self.request.parameters
@@ -145,7 +144,11 @@ class Service:
             response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
             response = response_formatter_object.format_cancel_intent_response()
 
-        elif(len(parameters['drink']) == 0 or len(drinks_dict[parameters['drink']])==0):
+        elif ( (len(parameters['drink']) > 0) and  (parameters['drink'] not in drinks_dict) ):
+            response_formatter_object = ResponseFormatter(drinks_dict)
+            response = response_formatter_object.format_cancel_item_not_exist()
+
+        elif( len(parameters['drink']) == 0):
             drink_desc = ""
             last_item_stat = False
             for each_category in drinks_dict:
@@ -171,15 +174,13 @@ class Service:
             response_formatter_object = ResponseFormatter({})
             response = response_formatter_object.format_delete_last_item_response(current_item_count,drink_desc)
             print('here!    ')
-        elif(parameters['drink'] not in drinks_dict):
-            response_formatter_object = ResponseFormatter(drinks_dict)
-            response = response_formatter_object.format_cancel_item_not_exist()
+
 
         print("sending")
         print(response)
         return {'fulfillmentText':response}
 
-    # Helper function tto handle deletion
+    # Helper function to handle deletion
     def cancel_item_intent_continue_helper(self,cancel_item_number,drinks_dict,doc_ref):
         deleted_item_stat = False
         deleted_item = ""
@@ -198,6 +199,26 @@ class Service:
                     })
                     return deleted_item_stat,deleted_item
         return deleted_item_stat,deleted_item
+
+    def adjust_last_added_item_id(self):
+        user_id = self.request.userid
+        # Get the current order for the user
+        doc_ref_current_order = self.firestore_client.collection(u'current_order').document(user_id)
+        if doc_ref_current_order.get().exists:
+            last_added_item_id = doc_ref_current_order.get().to_dict().get(u'current_item_count')
+            drinks_dict = doc_ref_current_order.get().to_dict().get(u'drinks')
+            id_max = 0
+            for each_category in drinks_dict:
+                category_drinks = drinks_dict[each_category]
+                for each_item_num in category_drinks:
+                    if(id_max < int(each_item_num) ):
+                        id_max = int(each_item_num)
+            if(int(last_added_item_id) > id_max):
+                doc_ref_current_order.update({
+                    u'current_item_count': id_max
+                })
+
+
 
     def cancel_item_intent_continue(self):
 
@@ -220,9 +241,12 @@ class Service:
 
         response = 'Done, a ' + deleted_item + ' has been removed from your order'
 
+        self.adjust_last_added_item_id()
+
         if not deleted_item_stat:
             response_formatter_object = ResponseFormatter(drinks_dict)
             response = response_formatter_object.format_cancel_item_not_exist()
+            return {'fulfillmentText': response}
 
         print(response)
         print(deleted_item_stat)
