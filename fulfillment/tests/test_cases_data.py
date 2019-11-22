@@ -3,7 +3,7 @@ class TestCasesData:
     # Drink name is not present
     test_order_intent_drink_null = {
         "queryResult": {
-            "queryText": "I want to cancel this item",
+            "queryText": "I want to order",
             "parameters": {
             },
             "intent": {
@@ -18,7 +18,7 @@ class TestCasesData:
         # when drink is present, it will always come as a list
     test_order_intent_drink_empty = {
         "queryResult": {
-            "queryText": "I want to cancel this item",
+            "queryText": "I want to order",
             "parameters": {
                 "drink": ""
             },
@@ -32,7 +32,7 @@ class TestCasesData:
     # Drink name is present but size is not present
     test_order_intent_size_null = {
         "queryResult": {
-            "queryText": "I want to cancel this item",
+            "queryText": "I want a Cafe Latte",
             "parameters": {
                 "drink": ['CAFFE LATTE']
             },
@@ -46,7 +46,7 @@ class TestCasesData:
     # Drink name is present but size is empty
     test_order_intent_size_empty = {
         "queryResult": {
-            "queryText": "I want to cancel this item",
+            "queryText": "I want a Cafe Latte",
             "parameters": {
                 "drink": ['CAFFE LATTE'],
                 "size": ""
