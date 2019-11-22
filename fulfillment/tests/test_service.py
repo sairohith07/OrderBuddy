@@ -1,28 +1,49 @@
 from test_cases_data import TestCasesData
-from service import Service
-from request_parser import RequestParser
+from app import app
 import pytest
 import json
+from config import Config
 
-# @pytest.fixture
-# def get_sum_test_data():
-#         return [(3,5,8), (-2,-2,-4), (-1,5,4), (3,-5,-2), (0,5,5)]
-#
-# def test_sum(get_sum_test_data):
-#     for data in get_sum_test_data:
-#         num1 = data[0]
-#         num2 = data[1]
-#         expected = data[2]
-#         assert (num1+num2) == expected
+class TestService:
 
-@pytest.fixture
-def get_test_order_intent_null():
-    return [
-        (TestCasesData.test_order_intent_null_1)
-    ]
+    @pytest.fixture
+    def get_test_order_intent_drink_check(self):
+        return [
+            (TestCasesData.test_order_intent_drink_null),
+            (TestCasesData.test_order_intent_drink_empty)
+        ]
 
-def test_order_intent_null(get_test_order_intent_null):
-    for test_data in get_test_order_intent_null:
-        request = RequestParser(test_data)
-        response = Service.order_intent(request)
-        assert response['fulfillmentText'] == 'Drink name is not present'
+    def test_order_intent_drink_check(self, get_test_order_intent_drink_check):
+        for test_data in get_test_order_intent_drink_check:
+            response = app.test_client().post(
+                '/webhook',
+                data=json.dumps(test_data),
+                content_type='application/json',
+            )
+
+            data = json.loads(response.get_data(as_text=True))
+            print(data)
+            print(data['fulfillmentText'])
+
+            assert data['fulfillmentText'] == Config.order_intent_drink_check_fulfillment_text
+
+    @pytest.fixture
+    def get_test_order_intent_size_check(self):
+        return [
+            (TestCasesData.test_order_intent_size_null),
+            (TestCasesData.test_order_intent_size_empty)
+        ]
+
+    def test_order_intent_size_check(self, get_test_order_intent_size_check):
+        for test_data in get_test_order_intent_size_check:
+            response = app.test_client().post(
+                '/webhook',
+                data=json.dumps(test_data),
+                content_type='application/json',
+            )
+
+            data = json.loads(response.get_data(as_text=True))
+            print(data)
+            print(data['fulfillmentText'])
+
+            assert data['fulfillmentText'] == Config.order_intent_size_check_fulfillment_text
