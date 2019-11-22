@@ -2,6 +2,7 @@ from google.cloud import firestore
 
 from factory import Factory
 from response_formatter import ResponseFormatter
+from config import Config
 
 
 class Service:
@@ -14,10 +15,10 @@ class Service:
         firestore_timestamp = firestore.SERVER_TIMESTAMP
 
         if ('drink' not in parameters) or (parameters['drink'] == ""):
-            response = {'fulfillmentText': 'Drink name is not present'}
+            response = {'fulfillmentText': Config.order_intent_drink_check_fulfillment_text}
             return response
         if ('size' not in parameters) or (parameters['size'] == ""):
-            response = {'fulfillmentText': 'Drink size is not present'}
+            response = {'fulfillmentText': Config.order_intent_size_check_fulfillment_text}
             return response
 
         # Assumption - Only one item per request.
