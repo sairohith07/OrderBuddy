@@ -126,15 +126,19 @@ class Service:
     def complete_order_intent(request):
         response = None
         user_id = request.userid
-        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
-        if document_exists:
+        doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
+        document_exists = doc_ref.get().exists
+        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+        if document_exists and drinks_dict is not None and len(drinks_dict)>0 :
             response = {'fulfillmentText': 'Are you sure you want to place the order?'}
         else:
-            response = {'fulfillmentText': 'Your cart is empty. Add some items !!'}
+            response_formatter_object = ResponseFormatter({})
+            response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
         return response
 
-    def complete_order_intent_yes(self):
-        return self.order_intent_no()
+    @staticmethod
+    def complete_order_intent_yes(request):
+        return Service.order_intent_no(request)
 
     @staticmethod
     def cancel_item_intent(request):
@@ -252,7 +256,7 @@ class Service:
                                                'To continue with the order , say an item name ' \
                                                'or to complete your order, say "COMPLETE ORDER"'
 
-        Service.adjust_last_added_item_id()
+        Service.adjust_last_added_item_id(request)
 
         if not deleted_item_stat:
             response_formatter_object = ResponseFormatter(drinks_dict)

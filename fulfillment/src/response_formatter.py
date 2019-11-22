@@ -41,4 +41,8 @@ class ResponseFormatter:
         response_string = response_string + "Please say cancel along with the item to be removed"
         return response_string
 
+    def format_empty_cart_response(self):
+        response_string  = "Your cart is empty. Please add some items"
+        return  response_string
+
 
