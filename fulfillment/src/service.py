@@ -116,11 +116,12 @@ class Service:
     @staticmethod
     def cancel_order_intent_yes(request):
         user_id = request.userid
-        document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
+        doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
+        document_exists = doc_ref.get().exists
         if document_exists:
-            doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
             doc_ref.delete()
         response = {'fulfillmentText': 'Your order  is cancelled.'}
+
         return response
 
     @staticmethod
@@ -129,7 +130,10 @@ class Service:
         user_id = request.userid
         doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
         document_exists = doc_ref.get().exists
-        drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+        drinks_dict = None
+        if(document_exists):
+            drinks_dict = doc_ref.get().to_dict().get(u'drinks')
+
         if document_exists and drinks_dict is not None and len(drinks_dict)>0 :
             response = {'fulfillmentText': 'Are you sure you want to place the order?'}
         else:
@@ -149,9 +153,22 @@ class Service:
         print(parameters)
 
         doc_ref = Factory.firestore_client.collection(u'current_order').document(user_id)
+
+        # No document check
+        if not doc_ref.get().exists:
+            response_formatter_object = ResponseFormatter({})
+            response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
+            return response
+
         doc_ref_dict = doc_ref.get().to_dict()
         drinks_dict = doc_ref_dict.get(u'drinks')
         current_item_count = doc_ref_dict.get(u'current_item_count')
+
+        #Empty document check
+        if(drinks_dict is None or len(drinks_dict)==0):
+            response_formatter_object = ResponseFormatter({})
+            response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
+            return response
 
         if(len(parameters['drink'])>0 and parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0 ):
             response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
