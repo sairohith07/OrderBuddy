@@ -40,6 +40,8 @@ def webhook():
         response_json = Service.complete_order_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == "complete_order_intent.yes":
         response_json = Service.complete_order_intent_yes(request_parser_object)
+    elif request_parser_object.intent["displayName"]== 'Default Fallback Intent':
+        response_json = Service.fallback_intent(request_parser_object)
 
 
     # return response

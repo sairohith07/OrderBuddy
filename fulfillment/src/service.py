@@ -75,6 +75,17 @@ class Service:
         return response
 
     @staticmethod
+    def fallback_intent(request):
+        ouput_contexts = request.output_contexts
+        # Setting the lifeSpan of the whatever context that triggered fallback intent to 1
+        ouput_contexts[0]['lifespanCount'] = '1'
+        print(ouput_contexts[0])
+        response = {'outputContexts': ouput_contexts}
+        return response
+
+
+
+    @staticmethod
     def order_intent_no(request):
         response = None
         user_id = request.userid
