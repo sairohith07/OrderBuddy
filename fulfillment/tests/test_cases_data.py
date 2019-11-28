@@ -87,11 +87,22 @@ class TestCasesData:
 
     test_complete_order_intent_null_document = {
         "queryResult": {
-            "queryText": "PLace Order",
+            "queryText": "Place Order",
             "parameters": {},
             "intent": {
               "name": "projects/orderbuddy/agent/intents/6620c32d-2e78-488a-9e85-c9ac02a4d386",
               "displayName": "complete_order_intent"
+            }
+        }
+    }
+
+    test_cancel_item_intent_null_document = {
+        "queryResult": {
+            "queryText": "Cancel",
+            "parameters": {},
+            "intent": {
+              "name": "projects/delete-this-2-xiocsx/agent/intents/aa60da0d-c87f-4a2e-9a08-cdffa419b94f",
+              "displayName": "cancel_item_intent"
             }
         }
     }

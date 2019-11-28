@@ -48,24 +48,18 @@ class TestService:
 
             assert data['fulfillmentText'] == Config.order_intent_size_check_fulfillment_text
 
-    @pytest.fixtures
+    @pytest.fixture
     def clear_document(self):
         return[
             (TestCasesData.clear_document_cancel_order)
             (TestCasesData.clear_document_cancel_order_yes_followup)
         ]
 
-    @pytest.fixture
-    def get_complete_order_intent__null_check(self):
-        return [
-            (TestCasesData.test_complete_order_intent_null_document)
-        ]
-
     # helper function to delete document by issuing cancel order
     def clear_document_helper(self):
         data_array = [
-            (TestCasesData.clear_document_cancel_order)
-            (TestCasesData.clear_document_cancel_order_yes_followup)
+            TestCasesData.clear_document_cancel_order,
+            TestCasesData.clear_document_cancel_order_yes_followup
         ]
         for test_data in data_array:
             app.test_client().post(
@@ -74,10 +68,38 @@ class TestService:
                 content_type='application/json',
             )
 
+    @pytest.fixture
+    def get_complete_order_intent__null_check(self):
+        return [
+            (TestCasesData.test_complete_order_intent_null_document)
+        ]
+
+    # function to test complete order with null document
     def test_complete_order_intent__null_check(self,get_complete_order_intent__null_check):
         # nullifies the document by cancelling order
         self.clear_document_helper()
         for test_data in get_complete_order_intent__null_check:
+            response = app.test_client().post(
+                '/webhook',
+                data=json.dumps(test_data),
+                content_type='application/json',
+            )
+            data = json.loads(response.get_data(as_text=True))
+            print(data)
+            print(data['fulfillmentText'])
+            assert data['fulfillmentText'] == Config.null_document_default_response_text
+
+    @pytest.fixture
+    def get_cancel_item_intent__null_check(self):
+        return [
+            (TestCasesData.test_cancel_item_intent_null_document)
+        ]
+
+    # function to test cancel item with null document
+    def test_cancel_item_intent__null_check(self,get_cancel_item_intent__null_check):
+        # nullifies the document by cancelling order
+        self.clear_document_helper()
+        for test_data in get_cancel_item_intent__null_check:
             response = app.test_client().post(
                 '/webhook',
                 data=json.dumps(test_data),
