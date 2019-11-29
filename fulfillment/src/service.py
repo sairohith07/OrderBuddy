@@ -9,6 +9,21 @@ import copy
 class Service:
 
     @staticmethod
+    def default_welcome_intent(request):
+
+        response = {
+            'fulfillmentText': 'Hi ' + request.username + '. Welcome to Starbucks. What can i get you to drink?'
+        }
+        return response
+
+    @staticmethod
+    def sign_in_intent(request):
+        response = {
+            'fulfillmentText': 'Have a good day!'
+        }
+        return response
+
+    @staticmethod
     def order_intent(request):
 
         user_id = request.userid
@@ -88,10 +103,11 @@ class Service:
     def fallback_intent(request):
         ouput_contexts = request.output_contexts
         # Setting the lifeSpan of the whatever context that triggered fallback intent to 1
-        ouput_contexts[0]['lifespanCount'] = '1'
-        print(ouput_contexts[0])
-        response = {'outputContexts': ouput_contexts}
-        return response
+        if(len(ouput_contexts)>0):
+            ouput_contexts[0]['lifespanCount'] = '1'
+            print(ouput_contexts[0])
+            response = {'outputContexts': ouput_contexts}
+            return response
 
 
 
@@ -128,9 +144,24 @@ class Service:
 
             response_formatter = ResponseFormatter(drinks_dict)
             response_string = response_formatter.format_complete_order()
-            response = {'fulfillmentText': 'Your order \n\n' + response_string + ' \n\n is confirmed.'}
+            response = {
+                'fulfillmentText': 'Your order \n\n' + response_string + ' \n\n is confirmed.',
+                "payload": {
+                    "google": {
+                        "expectUserResponse": True,
+                        "systemIntent": {
+                            "intent": "actions.intent.SIGN_IN",
+                            "data": {
+                                "@type": "type.googleapis.com/google.actions.v2.SignInValueSpec",
+                                 "optContext": 'Your order \n\n' + response_string + ' \n\n is confirmed. \n\n' +
+                                                'Would you like to sign in  help in personalization? \n \n For that '
+                            }
+                        }
+                    }
+                }
+            }
         else:
-            response = {'fulfillmentText': 'There is no existing order to delete'}
+            response = {'fulfillmentText': 'There is no existing order to place'}
 
         return response
 
@@ -191,6 +222,7 @@ class Service:
             response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
             return response
 
+        #  drink in current utterance --- drink has been ordered-------------- there is atleast one of this drinks-----
         if(len(parameters['drink'])>0 and (parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0)):
             drinks_dict_copy = copy.deepcopy(drinks_dict[parameters['drink']])
             if (len(parameters['size'])) > 0:
@@ -206,6 +238,7 @@ class Service:
                 response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
                 response = response_formatter_object.format_cancel_intent_response()
 
+        # drinks in present in utterance but no drink of that category of that order
         elif ( (len(parameters['drink']) > 0) and  (parameters['drink'] not in drinks_dict) ):
             response_formatter_object = ResponseFormatter(drinks_dict)
             response = response_formatter_object.format_cancel_item_not_exist()
@@ -323,10 +356,6 @@ class Service:
         print(deleted_item)
 
         return {'fulfillmentText': response}
-
-
-
-
 
 
 
