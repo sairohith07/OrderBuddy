@@ -1,0 +1,15 @@
+Test tuples count: 370 
+Training phrases count: 56 
+#########: 0, 0 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: big 
+"Training Phrase Potential: I'd like to order a big ICED CARAMEL MACCHIATOS 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: large 
