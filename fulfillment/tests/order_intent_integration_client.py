@@ -68,6 +68,8 @@ class OrderIntentIntegrationClient:
         print("Training phrases count: {} \n".format(len(TestCasesData.order_intent_drink_size_training_phrases)))
         output_file.write("Training phrases count: {} \n".format(len(TestCasesData.order_intent_drink_size_training_phrases)))
 
+        start = time.time()
+
         for i in range(len(TestCasesData.order_intent_drink_size_training_phrases)):
             training_phrase = TestCasesData.order_intent_drink_size_training_phrases[i]
             for j in range(len(test_tuples)):
@@ -98,8 +100,14 @@ class OrderIntentIntegrationClient:
                 response = client.detect_intent(session, query_input)
                 extracted_intent = response.query_result.intent.display_name
                 parameters = json_format.MessageToDict(response.query_result.parameters)
-                extracted_drink = parameters['drink'][0]
-                extracted_size = parameters['size'][0]
+
+                extracted_drink = None
+                if len(parameters['drink']) > 0:
+                    extracted_drink = parameters['drink'][0]
+
+                extracted_size = None
+                if len(parameters['size']) > 0:
+                    extracted_size = parameters['size'][0]
 
                 # Intent and Parameters check
                 test_status = True
@@ -111,7 +119,8 @@ class OrderIntentIntegrationClient:
                                                                      drink_potential, size_potential,
                                                                      training_phrase_potential, extracted_intent,
                                                                      extracted_drink, extracted_size, test_status)
-                if extracted_drink !=  golden_drink:
+
+                if (extracted_drink is None) or (extracted_drink !=  golden_drink):
                     test_status = False
                     drink_error_count = drink_error_count + 1
                     OrderIntentIntegrationClient.write_to_error_file(drink_error_file, i, j, training_phrase,
@@ -119,7 +128,8 @@ class OrderIntentIntegrationClient:
                                                                      drink_potential, size_potential,
                                                                      training_phrase_potential, extracted_intent,
                                                                      extracted_drink, extracted_size, test_status)
-                if extracted_size != golden_size:
+
+                if (extracted_size is None) or (extracted_size != golden_size):
                     test_status = False
                     size_error_count = size_error_count + 1
                     OrderIntentIntegrationClient.write_to_error_file(size_error_file, i, j, training_phrase,
@@ -136,10 +146,12 @@ class OrderIntentIntegrationClient:
                 # Sleep to avoid resource exhaustion
                 time.sleep(0.5)
                 total_count = total_count + 1
-                if total_count == 100:
-                    break
-            if total_count == 100:
-                break
+            #     if total_count == 100:
+            #         break
+            # if total_count == 100:
+            #     break
+
+        print("Process time: {}".format((time.time() - start)))
 
         output_file.write('######## \nTotal Count: {} \nIntent Error count: {} \nDrink Error Count: {} \nSize Error Count: {}'
                           .format(total_count, intent_error_count, drink_error_count, size_error_count))
