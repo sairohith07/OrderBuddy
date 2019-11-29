@@ -8,6 +8,21 @@ from config import Config
 class Service:
 
     @staticmethod
+    def default_welcome_intent(request):
+
+        response = {
+            'fulfillmentText': 'Hi ' + request.username + '. Welcome to Starbucks. What can i get you to drink?'
+        }
+        return response
+
+    @staticmethod
+    def sign_in_intent(request):
+        response = {
+            'fulfillmentText': 'Have a good day!'
+        }
+        return response
+
+    @staticmethod
     def order_intent(request):
 
         user_id = request.userid
@@ -107,9 +122,24 @@ class Service:
 
             response_formatter = ResponseFormatter(drinks_dict)
             response_string = response_formatter.format_complete_order()
-            response = {'fulfillmentText': 'Your order \n\n' + response_string + ' \n\n is confirmed.'}
+            response = {
+                'fulfillmentText': 'Your order \n\n' + response_string + ' \n\n is confirmed.',
+                "payload": {
+                    "google": {
+                        "expectUserResponse": True,
+                        "systemIntent": {
+                            "intent": "actions.intent.SIGN_IN",
+                            "data": {
+                                "@type": "type.googleapis.com/google.actions.v2.SignInValueSpec",
+                                 "optContext": 'Your order \n\n' + response_string + ' \n\n is confirmed. \n\n' +
+                                                'Would you like to sign in  help in personalization? \n \n For that '
+                            }
+                        }
+                    }
+                }
+            }
         else:
-            response = {'fulfillmentText': 'There is no existing order to delete'}
+            response = {'fulfillmentText': 'There is no existing order to place'}
 
         return response
 
@@ -134,8 +164,8 @@ class Service:
             response = {'fulfillmentText': 'Your cart is empty. Add some items !!'}
         return response
 
-    def complete_order_intent_yes(self):
-        return self.order_intent_no()
+    def complete_order_intent_yes(request):
+        return Service.order_intent_no(request)
 
     @staticmethod
     def cancel_item_intent(request):
@@ -265,10 +295,6 @@ class Service:
         print(deleted_item)
 
         return {'fulfillmentText': response}
-
-
-
-
 
 
 

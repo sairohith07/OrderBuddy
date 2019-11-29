@@ -40,7 +40,10 @@ def webhook():
         response_json = Service.complete_order_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == "complete_order_intent.yes":
         response_json = Service.complete_order_intent_yes(request_parser_object)
-
+    elif request_parser_object.intent["displayName"] == "welcome_intent":
+        response_json = Service.default_welcome_intent(request_parser_object)
+    elif request_parser_object.intent["displayName"] == 'sign_in_intent':
+        response_json = Service.sign_in_intent(request_parser_object)
 
     # return response
     return make_response(jsonify(response_json))
