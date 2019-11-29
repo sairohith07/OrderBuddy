@@ -257,7 +257,6 @@ class Service:
                     return deleted_item_stat,deleted_item
         return deleted_item_stat,deleted_item
 
-
     def adjust_last_added_item_id(request):
         user_id = request.userid
         # Get the current order for the user
