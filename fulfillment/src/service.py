@@ -20,10 +20,14 @@ class Service:
         if ('size' not in parameters) or (parameters['size'] == ""):
             response = {'fulfillmentText': Config.order_intent_size_check_fulfillment_text}
             return response
+        if ('customize' not in parameters) or (parameters['customize'] == ""):
+            response = {'fulfillmentText': Config.order_intent_size_check_fulfillment_text}
+            return response
 
         # Assumption - Only one item per request.
         drink_name = parameters.get('drink')[0]
         drink_size = parameters.get('size')[0]
+        drink_customization = parameters.get('customize')
 
         # INSERT TO DB (If collection not present, it get's created)
         document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
@@ -40,12 +44,14 @@ class Service:
 
             if drink_name in drinks_dict:
                 drinks_dict.get(drink_name)[str(item_number)] = {
-                    u'size': drink_size
+                    u'size': drink_size,
+                    u'customize': drink_customization
                 }
             else:
                 drinks_dict[drink_name] = {}
                 drinks_dict[drink_name][str(item_number)] = {
-                    u'size': drink_size
+                    u'size': drink_size,
+                    u'customize': drink_customization
                 }
 
             doc_ref.update({
@@ -64,13 +70,16 @@ class Service:
                 u'drinks': {
                     drink_name: {
                         str(item_number): {
-                            u'size': drink_size
+                            u'size': drink_size,
+                            u'customize': drink_customization
                         }
                     }
                 }
             })
-
-        response = {'fulfillmentText': 'Your order is updated with a ' + drink_size + ' ' + drink_name + '. Do you want to add anything else?'}
+        response_text = 'Your order is updated with a ' + drink_size + ' ' + drink_name
+        response_mid = "" if drink_customization[0].lower() == "no" else " With " + ','.join(drink_customization)
+        response_tail = '. Do you want to add anything else?'
+        response = {'fulfillmentText': response_text + response_mid + response_tail }
 
         return response
 
@@ -196,7 +205,9 @@ class Service:
                 drinks_in_category = drinks_dict[each_category]
                 for each_item_num in drinks_in_category:
                     if(each_item_num == current_item_count):
-                        drink_desc += drinks_in_category[each_item_num]['size']+" "+each_category
+                        customize_text = ','.join(drinks_in_category[each_item_num]['customize'])
+                        drink_desc += drinks_in_category[each_item_num]['size']+\
+                                      " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text )
                         last_item_stat = True
 
             if not last_item_stat:
@@ -206,7 +217,9 @@ class Service:
                     for each_item_num in drinks_in_category:
                         if(int(each_item_num))>current_item_count:
                             current_item_count = int(each_item_num)
-                            drink_desc = drinks_in_category[each_item_num]['size'] + " " + each_category
+                            customize_text = ','.join(drinks_in_category[each_item_num]['customize'])
+                            drink_desc = drinks_in_category[each_item_num]['size'] + \
+                                         " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text )
 
             doc_ref.update({
                 u'current_item_count': current_item_count
@@ -231,7 +244,9 @@ class Service:
             for each_item_num in category_drinks:
                 if(each_item_num == cancel_item_number):
                     deleted_item_stat = True
-                    deleted_item = category_drinks[each_item_num]['size'] + " " + each_category
+                    customize_text = ','.join(category_drinks[each_item_num]['customize'])
+                    deleted_item = category_drinks[each_item_num]['size'] + \
+                                   " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text)
                     len_dict = len(drinks_dict[each_category])
                     del drinks_dict[each_category][each_item_num]
                     if(len_dict==1):
