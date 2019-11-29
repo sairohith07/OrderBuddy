@@ -53,6 +53,11 @@ class OrderIntentIntegrationClient:
         drink_error_file = open('../output/order_intent_drink_size_integration_drink_error.txt', 'w')
         size_error_file = open('../output/order_intent_drink_size_integration_size_error.txt', 'w')
 
+        total_count = 0
+        intent_error_count = 0
+        drink_error_count = 0
+        size_error_count = 0
+
         client = dialogflow.SessionsClient()
         session = client.session_path(Config.GOOGLE_PROJECT_ID, Config.SESSION_ID)
         test_tuples = OrderIntentIntegrationClient.get_test_detect_intent_entity_drink_size_for_text()
@@ -100,6 +105,7 @@ class OrderIntentIntegrationClient:
                 test_status = True
                 if  extracted_intent != golden_intent:
                     test_status = False
+                    intent_error_count = intent_error_count + 1
                     OrderIntentIntegrationClient.write_to_error_file(intent_error_file, i, j, training_phrase,
                                                                      golden_intent, golden_drink, golden_size,
                                                                      drink_potential, size_potential,
@@ -107,6 +113,7 @@ class OrderIntentIntegrationClient:
                                                                      extracted_drink, extracted_size, test_status)
                 if extracted_drink !=  golden_drink:
                     test_status = False
+                    drink_error_count = drink_error_count + 1
                     OrderIntentIntegrationClient.write_to_error_file(drink_error_file, i, j, training_phrase,
                                                                      golden_intent, golden_drink, golden_size,
                                                                      drink_potential, size_potential,
@@ -114,6 +121,7 @@ class OrderIntentIntegrationClient:
                                                                      extracted_drink, extracted_size, test_status)
                 if extracted_size != golden_size:
                     test_status = False
+                    size_error_count = size_error_count + 1
                     OrderIntentIntegrationClient.write_to_error_file(size_error_file, i, j, training_phrase,
                                                                      golden_intent, golden_drink, golden_size,
                                                                      drink_potential, size_potential,
@@ -127,8 +135,17 @@ class OrderIntentIntegrationClient:
 
                 # Sleep to avoid resource exhaustion
                 time.sleep(0.5)
+                total_count = total_count + 1
+                if total_count == 100:
+                    break
+            if total_count == 100:
                 break
-            break
+
+        output_file.write('######## \nTotal Count: {} \nIntent Error count: {} \nDrink Error Count: {} \nSize Error Count: {}'
+                          .format(total_count, intent_error_count, drink_error_count, size_error_count))
+        intent_error_file.write('######## \nIntent Error count: {} \n'.format(intent_error_count))
+        drink_error_file.write('######## \nDrink Error count: {} \n'.format(drink_error_count))
+        size_error_file.write('######## \nSize Error count: {} \n'.format(size_error_count))
 
         output_file.close()
         intent_error_file.close()
