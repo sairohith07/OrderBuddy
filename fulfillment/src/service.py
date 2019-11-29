@@ -189,11 +189,12 @@ class Service:
             response_formatter_object = ResponseFormatter({})
             response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
             return response
-
+        #  drink in current utterance --- drink has been ordered-------------- there is atleast one of this drinks-----
         if(len(parameters['drink'])>0 and parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0 ):
             response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
             response = response_formatter_object.format_cancel_intent_response()
 
+        # drinks in present in utterance but no drink of that category of that order
         elif ( (len(parameters['drink']) > 0) and  (parameters['drink'] not in drinks_dict) ):
             response_formatter_object = ResponseFormatter(drinks_dict)
             response = response_formatter_object.format_cancel_item_not_exist()
