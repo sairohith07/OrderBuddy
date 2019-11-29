@@ -10,6 +10,7 @@ class RequestParser:
         self.original_detect_intent_request = {}
         self.parameters = {}
         self.intent = {}
+        self.output_contexts = {}
         self.__parse__(request)
 
     def __decrypt_user_details(self, encrypted_text):
@@ -26,6 +27,7 @@ class RequestParser:
         self.intent = request_json.get('queryResult').get('intent')
         self.original_detect_intent_request = request_json.get('originalDetectIntentRequest')
         self.conversation_token = self.original_detect_intent_request['payload']['conversation']['conversationId']
+        self.output_contexts = request_json.get('queryResult').get('outputContexts')
 
         payload = request_json.get('originalDetectIntentRequest').get('payload')
         if len(payload) == 0:

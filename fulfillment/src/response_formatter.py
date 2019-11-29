@@ -11,13 +11,14 @@ class ResponseFormatter:
         for item_name in self.response_dict.keys():
             drink_name_dict = self.response_dict[item_name]
             for item_number in drink_name_dict.keys():
-                response_string += "," + item_number + " for " +drink_name_dict[item_number]['size'] + " " + item_name + " "
+                customize_text = ','.join(drink_name_dict[item_number]['customize'])
+                response_string += "," + item_number + " for " +drink_name_dict[item_number]['size'] + " " + item_name \
+                                   + " " + ("" if customize_text.lower()=="no" else "With "+customize_text+" ")
         return response_string
 
     def format_delete_last_item_response(self,last_item_num,item_desc):
         response_string = "Are you sure you want to delete "+item_desc +" Please say "
-        response_string+= str(last_item_num)+" to remove "+item_desc
-        response_string+= " from your order or No! to abort cancel"
+        response_string+= str(last_item_num)+ " to delete or  say No! to abort"
 
         return response_string
 
@@ -26,9 +27,10 @@ class ResponseFormatter:
         order = Counter()
         for drink in self.response_dict:
             for drink_params in self.response_dict[drink].values():
-                order[(drink, drink_params['size'])] += 1
+                order[(drink, drink_params["size"],','.join(drink_params["customize"]))] += 1
         for drink in order.keys():
-            response_string = response_string + str(order[drink]) + " " + drink[1] + " " + drink[0] + ', '
+            response_string = response_string + str(order[drink]) + " " \
+                              + drink[1] + " " + drink[0] + ("" if drink[2].lower()=="no" else " With "+drink[2]) + ', '
         return response_string
 
     def format_cancel_item_not_exist(self):
@@ -40,5 +42,9 @@ class ResponseFormatter:
             response_string = response_string + drink_name + ', '
         response_string = response_string + "Please say cancel along with the item to be removed"
         return response_string
+
+    def format_empty_cart_response(self):
+        response_string  = "Your cart is empty. Please add some items"
+        return  response_string
 
 

@@ -5,8 +5,6 @@ from flask import jsonify
 from request_parser import RequestParser
 from service import Service
 
-
-
 # initialize the flask app
 app = Flask(__name__)
 # default route
@@ -44,9 +42,11 @@ def webhook():
         response_json = Service.default_welcome_intent(request_parser_object)
     elif request_parser_object.intent["displayName"] == 'sign_in_intent':
         response_json = Service.sign_in_intent(request_parser_object)
+    elif request_parser_object.intent["displayName"]== 'Default Fallback Intent':
+        response_json = Service.fallback_intent(request_parser_object)
 
-    # return response
-    return make_response(jsonify(response_json))
+    response = make_response(jsonify(response_json))
+    return response
 
 # run the app
 if __name__ == '__main__':
