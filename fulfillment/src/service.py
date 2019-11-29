@@ -43,8 +43,8 @@ class Service:
         # Assumption - Only one item per request.
         drink_name = parameters.get('drink')[0]
         drink_size = parameters.get('size')[0]
-        drink_customization = parameters.get('customize')
-
+        drink_customization = list(set(parameters.get('customize')))
+        drink_customization.sort()
         # INSERT TO DB (If collection not present, it get's created)
         document_exists = Factory.firestore_client.collection(u'current_order').document(user_id).get().exists
         if document_exists:
@@ -93,7 +93,7 @@ class Service:
                 }
             })
         response_text = 'Your order is updated with a ' + drink_size + ' ' + drink_name
-        response_mid = "" if drink_customization[0].lower() == "no" else " With " + ','.join(drink_customization)
+        response_mid = "" if drink_customization[0].lower() == "no" else " With " + ', '.join(drink_customization)
         response_tail = '. Do you want to add anything else?'
         response = {'fulfillmentText': response_text + response_mid + response_tail }
 
@@ -256,7 +256,7 @@ class Service:
                 drinks_in_category = drinks_dict[each_category]
                 for each_item_num in drinks_in_category:
                     if(int(each_item_num) == current_item_count):
-                        customize_text = ','.join(drinks_in_category[each_item_num]['customize'])
+                        customize_text = ', '.join(drinks_in_category[each_item_num]['customize'])
                         drink_desc += drinks_in_category[each_item_num]['size']+\
                                       " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text )
                         last_item_stat = True
@@ -268,7 +268,7 @@ class Service:
                     for each_item_num in drinks_in_category:
                         if(int(each_item_num))>current_item_count:
                             current_item_count = int(each_item_num)
-                            customize_text = ','.join(drinks_in_category[each_item_num]['customize'])
+                            customize_text = ', '.join(drinks_in_category[each_item_num]['customize'])
                             drink_desc = drinks_in_category[each_item_num]['size'] + \
                                          " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text )
 
@@ -295,7 +295,7 @@ class Service:
             for each_item_num in category_drinks:
                 if(each_item_num == cancel_item_number):
                     deleted_item_stat = True
-                    customize_text = ','.join(category_drinks[each_item_num]['customize'])
+                    customize_text = ', '.join(category_drinks[each_item_num]['customize'])
                     deleted_item = category_drinks[each_item_num]['size'] + \
                                    " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text)
                     len_dict = len(drinks_dict[each_category])

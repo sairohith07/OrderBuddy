@@ -26,11 +26,15 @@ class RequestParser:
         self.parameters = request_json.get('queryResult').get('parameters')
         self.intent = request_json.get('queryResult').get('intent')
         self.original_detect_intent_request = request_json.get('originalDetectIntentRequest')
-        self.conversation_token = self.original_detect_intent_request['payload']['conversation']['conversationId']
         self.output_contexts = request_json.get('queryResult').get('outputContexts')
 
-        payload = request_json.get('originalDetectIntentRequest').get('payload')
-        if len(payload) == 0:
+        payload = None
+        if 'originalDetectIntentRequest' in request_json:
+            if 'payload' in request_json.get('originalDetectIntentRequest'):
+                payload = request_json.get('originalDetectIntentRequest').get('payload')
+
+        if (payload==None) or (len(payload)) == 0:
+            print("Null payload")
             # Testing from Dialogflow client
             self.userid = u'myUserId'
             self.username = u'myUserId'
@@ -47,5 +51,5 @@ class RequestParser:
                 self.userid = decrypted_user_info['sub']
             else:
                 # Guest user - Guest + converation Id
-                self.userid = 'guest_'+ self.conversation_token
+                self.userid = 'guest_'+ self.original_detect_intent_request['payload']['conversation']['conversationId']
                 self.username = 'guest user'
