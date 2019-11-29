@@ -3,6 +3,7 @@ from google.cloud import firestore
 from factory import Factory
 from response_formatter import ResponseFormatter
 from config import Config
+import copy
 
 
 class Service:
@@ -190,9 +191,20 @@ class Service:
             response = {'fulfillmentText': response_formatter_object.format_empty_cart_response()}
             return response
 
-        if(len(parameters['drink'])>0 and parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0 ):
-            response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
-            response = response_formatter_object.format_cancel_intent_response()
+        if(len(parameters['drink'])>0 and (parameters['drink'] in drinks_dict and len(drinks_dict[parameters['drink']])>0)):
+            drinks_dict_copy = copy.deepcopy(drinks_dict[parameters['drink']])
+            if (len(parameters['size'])) > 0:
+                for item_number in drinks_dict[parameters['drink']].keys():
+                    drink_params_dict = drinks_dict[parameters['drink']][item_number]
+                    if drink_params_dict['size'] != parameters['size']:
+                        del drinks_dict_copy[item_number]
+
+                response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict_copy})
+                response = response_formatter_object.format_cancel_intent_response()
+
+            else:
+                response_formatter_object = ResponseFormatter({parameters['drink']: drinks_dict[parameters['drink']]})
+                response = response_formatter_object.format_cancel_intent_response()
 
         elif ( (len(parameters['drink']) > 0) and  (parameters['drink'] not in drinks_dict) ):
             response_formatter_object = ResponseFormatter(drinks_dict)

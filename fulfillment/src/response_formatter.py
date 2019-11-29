@@ -12,8 +12,8 @@ class ResponseFormatter:
             drink_name_dict = self.response_dict[item_name]
             for item_number in drink_name_dict.keys():
                 customize_text = ','.join(drink_name_dict[item_number]['customize'])
-                response_string += "," + item_number + " for " +drink_name_dict[item_number]['size'] + " " + item_name \
-                                   + " " + ("" if customize_text.lower()=="no" else "With "+customize_text+" ")
+                response_string += "," + item_number + " for " + drink_name_dict[item_number]['size'] + " " + item_name \
+                                   + " " + ("" if customize_text.lower() == "no" else "With "+customize_text+" ")
         return response_string
 
     def format_delete_last_item_response(self,last_item_num,item_desc):
