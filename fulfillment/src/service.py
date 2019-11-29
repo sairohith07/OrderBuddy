@@ -101,15 +101,21 @@ class Service:
 
     @staticmethod
     def fallback_intent(request):
-        ouput_contexts = request.output_contexts
-        # Setting the lifeSpan of the whatever context that triggered fallback intent to 1
-        if(len(ouput_contexts)>0):
-            ouput_contexts[0]['lifespanCount'] = '1'
-            print(ouput_contexts[0])
-            response = {'outputContexts': ouput_contexts}
-            return response
+        output_contexts = request.output_contexts
+        if output_contexts == None:
+            return
 
-
+        print(output_contexts)
+        intents = ['cancel_item_intent']
+        for output_context in output_contexts:
+            name = output_context['name'][output_context['name'].rfind('/')+1:]
+            for intent in intents:
+                intent_name  = intent + '-' + 'followup'
+                if name == intent_name:
+                    # Setting the lifeSpan of the whatever context that triggered fallback intent to 1
+                    output_context['lifespanCount'] = '1'
+                    response = {'outputContexts': output_contexts}
+                    return response
 
     @staticmethod
     def order_intent_no(request):
@@ -249,7 +255,7 @@ class Service:
             for each_category in drinks_dict:
                 drinks_in_category = drinks_dict[each_category]
                 for each_item_num in drinks_in_category:
-                    if(each_item_num == current_item_count):
+                    if(int(each_item_num) == current_item_count):
                         customize_text = ','.join(drinks_in_category[each_item_num]['customize'])
                         drink_desc += drinks_in_category[each_item_num]['size']+\
                                       " " + each_category + ("" if customize_text.lower()=="no" else " With "+customize_text )
