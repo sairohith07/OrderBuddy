@@ -1,0 +1,2243 @@
+#########: 0, 30 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I'd like to order a big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 0, 38 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I'd like to order a medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 0, 42 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I'd like to order a little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 0, 310 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I'd like to order a big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 0, 314 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I'd like to order a medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 0, 316 
+Training Phrase: I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I'd like to order a little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 1, 30 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Could I have big WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 1, 38 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Could I have medium WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 1, 42 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Could I have little WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 1, 310 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Could I have big HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 1, 314 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Could I have medium HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 1, 316 
+Training Phrase: Could I have {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Could I have little HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 2, 30 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I would like a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 2, 38 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I would like a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 2, 42 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I would like a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 2, 310 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I would like a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 2, 314 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I would like a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 2, 316 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I would like a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 3, 30 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Hi, I'd like a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 3, 38 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Hi, I'd like a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 3, 42 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Hi, I'd like a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 3, 310 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Hi, I'd like a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 3, 314 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Hi, I'd like a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 3, 316 
+Training Phrase: Hi, I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Hi, I'd like a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 4, 30 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Okay. Let me get a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 4, 38 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Okay. Let me get a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 4, 42 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Okay. Let me get a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 4, 310 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Okay. Let me get a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 4, 314 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Okay. Let me get a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 4, 316 
+Training Phrase: Okay. Let me get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Okay. Let me get a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 5, 30 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: One big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 5, 38 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: One medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 5, 42 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: One little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 5, 310 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: One big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 5, 314 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: One medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 5, 316 
+Training Phrase: One {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: One little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 6, 30 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I was looking to get a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 6, 38 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I was looking to get a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 6, 42 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I was looking to get a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 6, 310 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I was looking to get a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 6, 314 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I was looking to get a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 6, 316 
+Training Phrase: I was looking to get a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I was looking to get a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 7, 30 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I'd like to order a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 7, 38 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I'd like to order a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 7, 42 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I'd like to order a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 7, 310 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I'd like to order a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 7, 314 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I'd like to order a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 7, 316 
+Training Phrase: I'd like to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I'd like to order a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 8, 30 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I want a big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 8, 38 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I want a medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 8, 42 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I want a little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 8, 310 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I want a big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 8, 314 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I want a medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 8, 316 
+Training Phrase: I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I want a little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 9, 30 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I would like to order a big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 9, 38 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I would like to order a medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 9, 42 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I would like to order a little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 9, 310 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I would like to order a big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 9, 314 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I would like to order a medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 9, 316 
+Training Phrase: I would like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I would like to order a little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 10, 30 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I think I'd like to have a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 10, 38 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I think I'd like to have a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 10, 42 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I think I'd like to have a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 10, 310 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I think I'd like to have a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 10, 314 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I think I'd like to have a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 10, 316 
+Training Phrase: I think I'd like to have a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I think I'd like to have a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 11, 30 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I'd like a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 11, 38 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I'd like a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 11, 42 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I'd like a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 11, 310 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I'd like a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 11, 314 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I'd like a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 11, 316 
+Training Phrase: I'd like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I'd like a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 12, 30 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Okay, could I get a big WHITE CHOCOLATE MOCHA? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 12, 38 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Okay, could I get a medium WHITE CHOCOLATE MOCHA? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 12, 42 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Okay, could I get a little WHITE CHOCOLATE MOCHA? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 12, 310 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Okay, could I get a big HORCHATA ALMOND MILK? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 12, 314 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Okay, could I get a medium HORCHATA ALMOND MILK? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 12, 316 
+Training Phrase: Okay, could I get a {size} {drink}? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Okay, could I get a little HORCHATA ALMOND MILK? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 13, 30 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I want to order a big cup of WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 13, 38 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I want to order a medium cup of WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 13, 42 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I want to order a little cup of WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 13, 310 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I want to order a big cup of HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 13, 314 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I want to order a medium cup of HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 13, 316 
+Training Phrase: I want to order a {size} cup of {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I want to order a little cup of HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 14, 30 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Hey, I need to order a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 14, 38 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Hey, I need to order a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 14, 42 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Hey, I need to order a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 14, 310 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Hey, I need to order a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 14, 314 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Hey, I need to order a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 14, 316 
+Training Phrase: Hey, I need to order a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Hey, I need to order a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 15, 30 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Yes. I'd like to order a big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 15, 38 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Yes. I'd like to order a medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 15, 42 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Yes. I'd like to order a little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 15, 310 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Yes. I'd like to order a big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 15, 314 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Yes. I'd like to order a medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 15, 316 
+Training Phrase: Yes. I'd like to order a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Yes. I'd like to order a little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 16, 30 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Do you know if the Starbucks big WHITE CHOCOLATE MOCHA is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 16, 38 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Do you know if the Starbucks medium WHITE CHOCOLATE MOCHA is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 16, 42 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Do you know if the Starbucks little WHITE CHOCOLATE MOCHA is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 16, 310 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Do you know if the Starbucks big HORCHATA ALMOND MILK is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 16, 314 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Do you know if the Starbucks medium HORCHATA ALMOND MILK is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 16, 316 
+Training Phrase: Do you know if the Starbucks {size} {drink} is available right now? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Do you know if the Starbucks little HORCHATA ALMOND MILK is available right now? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 17, 30 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Okay, so I know what I want. I want a big WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 17, 38 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Okay, so I know what I want. I want a medium WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 17, 42 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Okay, so I know what I want. I want a little WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 17, 310 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Okay, so I know what I want. I want a big HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 17, 314 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Okay, so I know what I want. I want a medium HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 17, 316 
+Training Phrase: Okay, so I know what I want. I want a {size} {drink} 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Okay, so I know what I want. I want a little HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 18, 30 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Coffee, just a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 18, 38 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Coffee, just a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 18, 42 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Coffee, just a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 18, 310 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Coffee, just a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 18, 314 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Coffee, just a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 18, 316 
+Training Phrase: Coffee, just a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Coffee, just a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 19, 30 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Well, I'll just take a big WHITE CHOCOLATE MOCHA to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 19, 38 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Well, I'll just take a medium WHITE CHOCOLATE MOCHA to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 19, 42 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Well, I'll just take a little WHITE CHOCOLATE MOCHA to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 19, 310 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Well, I'll just take a big HORCHATA ALMOND MILK to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 19, 314 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Well, I'll just take a medium HORCHATA ALMOND MILK to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 19, 316 
+Training Phrase: Well, I'll just take a {size} {drink} to go. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Well, I'll just take a little HORCHATA ALMOND MILK to go. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 20, 30 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Can I get a big WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 20, 38 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Can I get a medium WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 20, 42 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Can I get a little WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 20, 310 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Can I get a big HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 20, 314 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Can I get a medium HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 20, 316 
+Training Phrase: Can I get a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Can I get a little HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 21, 30 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Can I get an iced WHITE CHOCOLATE MOCHA, please? big size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 21, 38 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Can I get an iced WHITE CHOCOLATE MOCHA, please? medium size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 21, 42 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Can I get an iced WHITE CHOCOLATE MOCHA, please? little size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 21, 310 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Can I get an iced HORCHATA ALMOND MILK, please? big size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 21, 314 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Can I get an iced HORCHATA ALMOND MILK, please? medium size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 21, 316 
+Training Phrase: Can I get an iced {drink}, please? {size} size. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Can I get an iced HORCHATA ALMOND MILK, please? little size. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 22, 30 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I would like a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 22, 38 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I would like a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 22, 42 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I would like a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 22, 310 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I would like a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 22, 314 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I would like a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 22, 316 
+Training Phrase: I would like a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I would like a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 23, 30 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I'd like a skinny WHITE CHOCOLATE MOCHA, big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 23, 38 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I'd like a skinny WHITE CHOCOLATE MOCHA, medium. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 23, 42 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I'd like a skinny WHITE CHOCOLATE MOCHA, little. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 23, 310 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I'd like a skinny HORCHATA ALMOND MILK, big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 23, 314 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I'd like a skinny HORCHATA ALMOND MILK, medium. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 23, 316 
+Training Phrase: I'd like a skinny {drink}, {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I'd like a skinny HORCHATA ALMOND MILK, little. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 24, 30 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: WHITE CHOCOLATE MOCHA big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 24, 38 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: WHITE CHOCOLATE MOCHA medium. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 24, 42 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: WHITE CHOCOLATE MOCHA little. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 24, 310 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: HORCHATA ALMOND MILK big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 24, 314 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: HORCHATA ALMOND MILK medium. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 24, 316 
+Training Phrase: {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: HORCHATA ALMOND MILK little. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 25, 30 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: I want a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 25, 38 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: I want a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 25, 42 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: I want a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 25, 310 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: I want a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 25, 314 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: I want a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 25, 316 
+Training Phrase: I want a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: I want a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 26, 30 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: okay, adding a big WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 26, 38 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: okay, adding a medium WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 26, 42 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: okay, adding a little WHITE CHOCOLATE MOCHA. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 26, 310 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: okay, adding a big HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 26, 314 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: okay, adding a medium HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 26, 316 
+Training Phrase: okay, adding a {size} {drink}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: okay, adding a little HORCHATA ALMOND MILK. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 27, 30 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Hi. Can I order a big WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 27, 38 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Hi. Can I order a medium WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 27, 42 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Hi. Can I order a little WHITE CHOCOLATE MOCHA, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 27, 310 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Hi. Can I order a big HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 27, 314 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: Hi. Can I order a medium HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: large 
+#########: 27, 316 
+Training Phrase: Hi. Can I order a {size} {drink}, please? 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: Hi. Can I order a little HORCHATA ALMOND MILK, please? 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size: medium 
+#########: 28, 30 
+Training Phrase: Hey, I'd like to order a {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: Hey, I'd like to order a WHITE CHOCOLATE MOCHA big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size: small 
+#########: 28, 38 
+Training Phrase: Hey, I'd like to order a {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: Hey, I'd like to order a WHITE CHOCOLATE MOCHA medium. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: large 
+#########: 28, 42 
+Training Phrase: Hey, I'd like to order a {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: Hey, I'd like to order a WHITE CHOCOLATE MOCHA little. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size: medium 
+#########: 28, 310 
+Training Phrase: Hey, I'd like to order a {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: Hey, I'd like to order a HORCHATA ALMOND MILK big. 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size: small 
+#########: 28, 314 
+Training Phrase: Hey, I'd like to order a {drink} {size}. 
+Golden Intent: order_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
