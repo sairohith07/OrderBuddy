@@ -144,6 +144,18 @@ class TestCasesData:
         "I need to get a {drink}.",
     ]
 
+    cancel_item_case_drink_size_input_test_phrases = [
+        "cancel {size} {drink}",
+        "remove {size} {drink} from the order",
+        "Can you cancel the {size} {drink}"
+    ]
+
+    cancel_item_case_drink_input_test_phrases = [
+        "cancel  {drink}",
+        "remove  {drink} from the order",
+        "Can you cancel the {drink}"
+    ]
+
     customize = [
         "I'd like to order some {size} {drink}, with whole milk and two sugars.",
         "I think I want to order a {size} {drink} with whole milk and two sugars.",

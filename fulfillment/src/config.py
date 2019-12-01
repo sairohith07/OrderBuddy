@@ -3,8 +3,8 @@ from certificates import Certificates
 
 class Config:
     
-    GOOGLE_PROJECT_ID = "order-buddy-257400"
-    SESSION_ID = "order-buddy-257400-session"
+    GOOGLE_PROJECT_ID = "orderbuddy"
+    SESSION_ID = "orderbuddy-session"
 
     CURRENT_ORDER_COLLECTION = u'current_order'
     HISTORY_COLLECTION = u'current_item_count'

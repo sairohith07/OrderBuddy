@@ -1,0 +1,10 @@
+#########: 1, 18 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION  
+Drink Potential: SHAKEN ICED TEA INFUSION  
+"Training Phrase Potential: remove  SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA  
