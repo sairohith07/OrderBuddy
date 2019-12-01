@@ -1,5 +1,4 @@
 from google.cloud import firestore
-
 from factory import Factory
 from response_formatter import ResponseFormatter
 from config import Config
@@ -102,7 +101,7 @@ class Service:
     @staticmethod
     def fallback_intent(request):
         output_contexts = request.output_contexts
-        if output_contexts == None:
+        if output_contexts is None:
             return
 
         print(output_contexts)
