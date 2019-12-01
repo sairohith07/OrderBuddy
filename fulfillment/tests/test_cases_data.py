@@ -144,6 +144,18 @@ class TestCasesData:
         "I need to get a {drink}.",
     ]
 
+
+    cancel_item_case_drink_size_input_test_phrases = [
+        "cancel {size} {drink}",
+        "remove {size} {drink} from the order",
+        "Can you cancel the {size} {drink}"
+    ]
+
+    cancel_item_case_drink_input_test_phrases = [
+        "cancel  {drink}",
+        "remove  {drink} from the order",
+        "Can you cancel the {drink}"
+    ]
     order_intent_drink_size_customize_training_phrases = [
         "I'd like to order some {size} {drink}, with {customize} and two sugars.",
         "I think I want to order a {size} {drink} with {customize} and two sugars.",
@@ -195,7 +207,7 @@ class TestCasesData:
         "I would like to place an order for a {size} {drink} with an {customize} added.",
         "I was hoping I could order a {drink} size {size}, and with {customize}.",
         "I'll have a {drink} with {customize}. And can you make that a {size}?",
-        "I'm looking to order a {size} {drink} with added {customize} on top.",
+        "I'm looking to order a {size} {drink} with added {customize} on top."
     ]
 
     # Drink name is not present

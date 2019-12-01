@@ -1,0 +1,3315 @@
+#########: 1, 0 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: big 
+"Training Phrase Potential: remove big ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 1 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: huge 
+"Training Phrase Potential: remove huge ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 2 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: large 
+"Training Phrase Potential: remove large ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 3 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: venti 
+"Training Phrase Potential: remove venti ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 7 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: macchiatos 
+Size Potential: venti 
+"Training Phrase Potential: remove venti macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 8 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: caramel macchiatos 
+Size Potential: big 
+"Training Phrase Potential: remove big caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 9 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: caramel macchiatos 
+Size Potential: huge 
+"Training Phrase Potential: remove huge caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 10 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: caramel macchiatos 
+Size Potential: large 
+"Training Phrase Potential: remove large caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 11 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: large 
+Drink Potential: caramel macchiatos 
+Size Potential: venti 
+"Training Phrase Potential: remove venti caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['large'] 
+#########: 1, 12 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: medium 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: medium 
+"Training Phrase Potential: remove medium ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['medium'] 
+#########: 1, 13 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: medium 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: grande 
+"Training Phrase Potential: remove grande ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['medium'] 
+#########: 1, 16 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: medium 
+Drink Potential: caramel macchiatos 
+Size Potential: medium 
+"Training Phrase Potential: remove medium caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['medium'] 
+#########: 1, 17 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: medium 
+Drink Potential: caramel macchiatos 
+Size Potential: grande 
+"Training Phrase Potential: remove grande caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['medium'] 
+#########: 1, 18 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: little 
+"Training Phrase Potential: remove little ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 19 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: short 
+"Training Phrase Potential: remove short ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 21 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+Size Potential: tall 
+"Training Phrase Potential: remove tall ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 26 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: caramel macchiatos 
+Size Potential: little 
+"Training Phrase Potential: remove little caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 27 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: caramel macchiatos 
+Size Potential: short 
+"Training Phrase Potential: remove short caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 29 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Golden Size: small 
+Drink Potential: caramel macchiatos 
+Size Potential: tall 
+"Training Phrase Potential: remove tall caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 30 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: remove big WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED CARAMEL MACCHIATOS'] 
+Extracted Size: ['small'] 
+#########: 1, 31 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: huge 
+"Training Phrase Potential: remove huge WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 32 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: large 
+"Training Phrase Potential: remove large WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 33 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: venti 
+"Training Phrase Potential: remove venti WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 34 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: white mocha 
+Size Potential: big 
+"Training Phrase Potential: remove big white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 35 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: white mocha 
+Size Potential: huge 
+"Training Phrase Potential: remove huge white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 36 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: white mocha 
+Size Potential: large 
+"Training Phrase Potential: remove large white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 37 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: large 
+Drink Potential: white mocha 
+Size Potential: venti 
+"Training Phrase Potential: remove venti white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 38 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: remove medium WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 39 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: grande 
+"Training Phrase Potential: remove grande WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 40 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: white mocha 
+Size Potential: medium 
+"Training Phrase Potential: remove medium white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 41 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: medium 
+Drink Potential: white mocha 
+Size Potential: grande 
+"Training Phrase Potential: remove grande white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 42 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: remove little WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 43 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: short 
+"Training Phrase Potential: remove short WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 44 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: small 
+"Training Phrase Potential: remove small WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 45 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+Size Potential: tall 
+"Training Phrase Potential: remove tall WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 46 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: white mocha 
+Size Potential: little 
+"Training Phrase Potential: remove little white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 47 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: white mocha 
+Size Potential: short 
+"Training Phrase Potential: remove short white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 49 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Golden Size: small 
+Drink Potential: white mocha 
+Size Potential: tall 
+"Training Phrase Potential: remove tall white mocha from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['WHITE CHOCOLATE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 50 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: large 
+Drink Potential: CAFFE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: remove big CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 51 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: large 
+Drink Potential: CAFFE MOCHA 
+Size Potential: huge 
+"Training Phrase Potential: remove huge CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 52 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: large 
+Drink Potential: CAFFE MOCHA 
+Size Potential: large 
+"Training Phrase Potential: remove large CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 53 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: large 
+Drink Potential: CAFFE MOCHA 
+Size Potential: venti 
+"Training Phrase Potential: remove venti CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 54 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: medium 
+Drink Potential: CAFFE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: remove medium CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 55 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: medium 
+Drink Potential: CAFFE MOCHA 
+Size Potential: grande 
+"Training Phrase Potential: remove grande CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 56 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: small 
+Drink Potential: CAFFE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: remove little CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 57 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: small 
+Drink Potential: CAFFE MOCHA 
+Size Potential: short 
+"Training Phrase Potential: remove short CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 59 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Golden Size: small 
+Drink Potential: CAFFE MOCHA 
+Size Potential: tall 
+"Training Phrase Potential: remove tall CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 63 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: CAFFE LATTE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti CAFFE LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 64 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: latte 
+Size Potential: big 
+"Training Phrase Potential: remove big latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 65 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: latte 
+Size Potential: huge 
+"Training Phrase Potential: remove huge latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 66 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: latte 
+Size Potential: large 
+"Training Phrase Potential: remove large latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 67 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: latte 
+Size Potential: venti 
+"Training Phrase Potential: remove venti latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 68 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: lattes 
+Size Potential: big 
+"Training Phrase Potential: remove big lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 69 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: lattes 
+Size Potential: huge 
+"Training Phrase Potential: remove huge lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 70 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: lattes 
+Size Potential: large 
+"Training Phrase Potential: remove large lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 71 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: large 
+Drink Potential: lattes 
+Size Potential: venti 
+"Training Phrase Potential: remove venti lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 73 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: medium 
+Drink Potential: CAFFE LATTE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande CAFFE LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 74 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: medium 
+Drink Potential: latte 
+Size Potential: medium 
+"Training Phrase Potential: remove medium latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 75 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: medium 
+Drink Potential: latte 
+Size Potential: grande 
+"Training Phrase Potential: remove grande latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 76 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: medium 
+Drink Potential: lattes 
+Size Potential: medium 
+"Training Phrase Potential: remove medium lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 77 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: medium 
+Drink Potential: lattes 
+Size Potential: grande 
+"Training Phrase Potential: remove grande lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 82 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: latte 
+Size Potential: little 
+"Training Phrase Potential: remove little latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 83 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: latte 
+Size Potential: short 
+"Training Phrase Potential: remove short latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 85 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: latte 
+Size Potential: tall 
+"Training Phrase Potential: remove tall latte from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 86 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: lattes 
+Size Potential: little 
+"Training Phrase Potential: remove little lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 87 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: lattes 
+Size Potential: short 
+"Training Phrase Potential: remove short lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 89 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Golden Size: small 
+Drink Potential: lattes 
+Size Potential: tall 
+"Training Phrase Potential: remove tall lattes from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 93 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FLAT WHITE 
+Golden Size: large 
+Drink Potential: FLAT WHITE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti FLAT WHITE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FLAT WHITE'] 
+Extracted Size: ['large'] 
+#########: 1, 95 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FLAT WHITE 
+Golden Size: medium 
+Drink Potential: FLAT WHITE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande FLAT WHITE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FLAT WHITE'] 
+Extracted Size: ['medium'] 
+#########: 1, 100 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: large 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: big 
+"Training Phrase Potential: remove big STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: [] 
+Extracted Size: ['large'] 
+#########: 1, 101 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: large 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: huge 
+"Training Phrase Potential: remove huge STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 102 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: large 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: large 
+"Training Phrase Potential: remove large STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 103 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: large 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: venti 
+"Training Phrase Potential: remove venti STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 104 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: medium 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: medium 
+"Training Phrase Potential: remove medium STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 105 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: medium 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: grande 
+"Training Phrase Potential: remove grande STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 106 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: small 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: little 
+"Training Phrase Potential: remove little STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 107 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: small 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: short 
+"Training Phrase Potential: remove short STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STARBUCKS COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 109 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Golden Size: small 
+Drink Potential: STARBUCKS COLD BREW 
+Size Potential: tall 
+"Training Phrase Potential: remove tall STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: [] 
+Extracted Size: ['small'] 
+#########: 1, 110 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: large 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: big 
+"Training Phrase Potential: remove big VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 111 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: large 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: huge 
+"Training Phrase Potential: remove huge VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 112 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: large 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: large 
+"Training Phrase Potential: remove large VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 113 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: large 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: venti 
+"Training Phrase Potential: remove venti VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 114 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: medium 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: medium 
+"Training Phrase Potential: remove medium VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 115 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: medium 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: grande 
+"Training Phrase Potential: remove grande VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 116 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: small 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: little 
+"Training Phrase Potential: remove little VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 117 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: small 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: short 
+"Training Phrase Potential: remove short VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA SWEET CREAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 119 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Golden Size: small 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+Size Potential: tall 
+"Training Phrase Potential: remove tall VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: [] 
+Extracted Size: ['small'] 
+#########: 1, 120 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: large 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: big 
+"Training Phrase Potential: remove big COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 121 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: large 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: huge 
+"Training Phrase Potential: remove huge COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 122 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: large 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: large 
+"Training Phrase Potential: remove large COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 123 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: large 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: venti 
+"Training Phrase Potential: remove venti COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['large'] 
+#########: 1, 124 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: medium 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: medium 
+"Training Phrase Potential: remove medium COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 125 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: medium 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: grande 
+"Training Phrase Potential: remove grande COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['medium'] 
+#########: 1, 126 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: small 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: little 
+"Training Phrase Potential: remove little COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 127 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: small 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: short 
+"Training Phrase Potential: remove short COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM COLD BREW'] 
+Extracted Size: ['small'] 
+#########: 1, 129 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Golden Size: small 
+Drink Potential: COLD FOAM COLD BREW 
+Size Potential: tall 
+"Training Phrase Potential: remove tall COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: [] 
+Extracted Size: ['small'] 
+#########: 1, 130 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: big 
+"Training Phrase Potential: remove big COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 131 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: huge 
+"Training Phrase Potential: remove huge COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 132 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: large 
+"Training Phrase Potential: remove large COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 133 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: venti 
+"Training Phrase Potential: remove venti COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 134 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: cappuccino 
+Size Potential: big 
+"Training Phrase Potential: remove big cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 135 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: cappuccino 
+Size Potential: huge 
+"Training Phrase Potential: remove huge cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 136 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: cappuccino 
+Size Potential: large 
+"Training Phrase Potential: remove large cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 137 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: large 
+Drink Potential: cappuccino 
+Size Potential: venti 
+"Training Phrase Potential: remove venti cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['large'] 
+#########: 1, 138 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: medium 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: medium 
+"Training Phrase Potential: remove medium COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['medium'] 
+#########: 1, 139 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: medium 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: grande 
+"Training Phrase Potential: remove grande COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['medium'] 
+#########: 1, 140 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: medium 
+Drink Potential: cappuccino 
+Size Potential: medium 
+"Training Phrase Potential: remove medium cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['medium'] 
+#########: 1, 141 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: medium 
+Drink Potential: cappuccino 
+Size Potential: grande 
+"Training Phrase Potential: remove grande cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['medium'] 
+#########: 1, 142 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: little 
+"Training Phrase Potential: remove little COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 143 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: short 
+"Training Phrase Potential: remove short COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 145 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+Size Potential: tall 
+"Training Phrase Potential: remove tall COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 146 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: cappuccino 
+Size Potential: little 
+"Training Phrase Potential: remove little cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 147 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: cappuccino 
+Size Potential: short 
+"Training Phrase Potential: remove short cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 149 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Golden Size: small 
+Drink Potential: cappuccino 
+Size Potential: tall 
+"Training Phrase Potential: remove tall cappuccino from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COLD FOAM ICED CAPPUCCINO'] 
+Extracted Size: ['small'] 
+#########: 1, 150 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: large 
+Drink Potential: ICED COFFEE 
+Size Potential: big 
+"Training Phrase Potential: remove big ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 151 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: large 
+Drink Potential: ICED COFFEE 
+Size Potential: huge 
+"Training Phrase Potential: remove huge ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 152 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: large 
+Drink Potential: ICED COFFEE 
+Size Potential: large 
+"Training Phrase Potential: remove large ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 153 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: large 
+Drink Potential: ICED COFFEE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 154 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: medium 
+Drink Potential: ICED COFFEE 
+Size Potential: medium 
+"Training Phrase Potential: remove medium ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 155 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: medium 
+Drink Potential: ICED COFFEE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 156 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: small 
+Drink Potential: ICED COFFEE 
+Size Potential: little 
+"Training Phrase Potential: remove little ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 157 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: small 
+Drink Potential: ICED COFFEE 
+Size Potential: short 
+"Training Phrase Potential: remove short ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 159 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Golden Size: small 
+Drink Potential: ICED COFFEE 
+Size Potential: tall 
+"Training Phrase Potential: remove tall ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 160 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: large 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: big 
+"Training Phrase Potential: remove big FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 161 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: large 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: huge 
+"Training Phrase Potential: remove huge FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 162 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: large 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: large 
+"Training Phrase Potential: remove large FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 163 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: large 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 164 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: medium 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: medium 
+"Training Phrase Potential: remove medium FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 165 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: medium 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 166 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: small 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: little 
+"Training Phrase Potential: remove little FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 167 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: small 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: short 
+"Training Phrase Potential: remove short FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 169 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Golden Size: small 
+Drink Potential: FRESHLY BREWED COFFEE 
+Size Potential: tall 
+"Training Phrase Potential: remove tall FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['FRESHLY BREWED COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 170 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: big 
+"Training Phrase Potential: remove big SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 171 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: huge 
+"Training Phrase Potential: remove huge SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 172 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: large 
+"Training Phrase Potential: remove large SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 173 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: venti 
+"Training Phrase Potential: remove venti SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 174 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: medium 
+"Training Phrase Potential: remove medium SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['medium'] 
+#########: 1, 175 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: grande 
+"Training Phrase Potential: remove grande SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['medium'] 
+#########: 1, 176 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: little 
+"Training Phrase Potential: remove little SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 177 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: short 
+"Training Phrase Potential: remove short SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 179 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA 
+Size Potential: tall 
+"Training Phrase Potential: remove tall SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 180 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: big 
+"Training Phrase Potential: remove big SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 181 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: huge 
+"Training Phrase Potential: remove huge SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 182 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: large 
+"Training Phrase Potential: remove large SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 183 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: venti 
+"Training Phrase Potential: remove venti SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['large'] 
+#########: 1, 184 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: medium 
+"Training Phrase Potential: remove medium SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['medium'] 
+#########: 1, 185 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: grande 
+"Training Phrase Potential: remove grande SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['medium'] 
+#########: 1, 186 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: little 
+"Training Phrase Potential: remove little SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 187 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: short 
+"Training Phrase Potential: remove short SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 188 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: small 
+"Training Phrase Potential: remove small SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA 
+Extracted Size: small 
+#########: 1, 189 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+Size Potential: tall 
+"Training Phrase Potential: remove tall SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA'] 
+Extracted Size: ['small'] 
+#########: 1, 190 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: big 
+"Training Phrase Potential: remove big SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['large'] 
+#########: 1, 191 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: huge 
+"Training Phrase Potential: remove huge SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['large'] 
+#########: 1, 192 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: large 
+"Training Phrase Potential: remove large SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['large'] 
+#########: 1, 193 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: large 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: venti 
+"Training Phrase Potential: remove venti SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['large'] 
+#########: 1, 194 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: medium 
+"Training Phrase Potential: remove medium SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['medium'] 
+#########: 1, 195 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: medium 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: grande 
+"Training Phrase Potential: remove grande SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['medium'] 
+#########: 1, 196 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: little 
+"Training Phrase Potential: remove little SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['small'] 
+#########: 1, 197 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: short 
+"Training Phrase Potential: remove short SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['small'] 
+#########: 1, 199 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Golden Size: small 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Size Potential: tall 
+"Training Phrase Potential: remove tall SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SHAKEN ICED TEA INFUSIONS LEMONADES'] 
+Extracted Size: ['small'] 
+#########: 1, 200 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Golden Size: large 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+Size Potential: big 
+"Training Phrase Potential: remove big CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size: large 
+#########: 1, 201 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Golden Size: large 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+Size Potential: huge 
+"Training Phrase Potential: remove huge CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size: large 
+#########: 1, 202 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Golden Size: large 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+Size Potential: large 
+"Training Phrase Potential: remove large CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size: large 
+#########: 1, 203 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Golden Size: large 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 205 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Golden Size: medium 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 213 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Golden Size: large 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti LIGHTLY SWEETH CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 214 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Golden Size: medium 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+Size Potential: medium 
+"Training Phrase Potential: remove medium LIGHTLY SWEETH CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 215 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Golden Size: medium 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande LIGHTLY SWEETH CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CAFFE LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 223 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Golden Size: large 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti ICED MATCHA GREEN TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED MATCHA GREEN TEA LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 225 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Golden Size: medium 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande ICED MATCHA GREEN TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED MATCHA GREEN TEA LATTE'] 
+Extracted Size: ['medium'] 
+#########: 1, 229 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Golden Size: small 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+Size Potential: tall 
+"Training Phrase Potential: remove tall ICED MATCHA GREEN TEA LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ICED MATCHA GREEN TEA LATTE'] 
+Extracted Size: ['small'] 
+#########: 1, 230 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: large 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: big 
+"Training Phrase Potential: remove big ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['large'] 
+#########: 1, 231 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: large 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: huge 
+"Training Phrase Potential: remove huge ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['large'] 
+#########: 1, 232 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: large 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: large 
+"Training Phrase Potential: remove large ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['large'] 
+#########: 1, 233 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: large 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: venti 
+"Training Phrase Potential: remove venti ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['large'] 
+#########: 1, 234 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: medium 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: medium 
+"Training Phrase Potential: remove medium ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['medium'] 
+#########: 1, 235 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: medium 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: grande 
+"Training Phrase Potential: remove grande ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['medium'] 
+#########: 1, 236 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: small 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: little 
+"Training Phrase Potential: remove little ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['small'] 
+#########: 1, 239 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Golden Size: small 
+Drink Potential: ULTRA CARAMEL 
+Size Potential: tall 
+"Training Phrase Potential: remove tall ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['ULTRA CARAMEL'] 
+Extracted Size: ['small'] 
+#########: 1, 240 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: large 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: big 
+"Training Phrase Potential: remove big TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 241 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: large 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: huge 
+"Training Phrase Potential: remove huge TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 242 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: large 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: large 
+"Training Phrase Potential: remove large TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 243 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: large 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: venti 
+"Training Phrase Potential: remove venti TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['large'] 
+#########: 1, 244 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: medium 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: medium 
+"Training Phrase Potential: remove medium TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 245 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: medium 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: grande 
+"Training Phrase Potential: remove grande TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['medium'] 
+#########: 1, 246 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: small 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: little 
+"Training Phrase Potential: remove little TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 247 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: small 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: short 
+"Training Phrase Potential: remove short TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 249 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Golden Size: small 
+Drink Potential: TRIPLE MOCHA 
+Size Potential: tall 
+"Training Phrase Potential: remove tall TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['TRIPLE MOCHA'] 
+Extracted Size: ['small'] 
+#########: 1, 253 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SERIOUS STRAWBERRY 
+Golden Size: large 
+Drink Potential: SERIOUS STRAWBERRY 
+Size Potential: venti 
+"Training Phrase Potential: remove venti SERIOUS STRAWBERRY from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SERIOUS STRAWBERRY'] 
+Extracted Size: ['large'] 
+#########: 1, 255 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SERIOUS STRAWBERRY 
+Golden Size: medium 
+Drink Potential: SERIOUS STRAWBERRY 
+Size Potential: grande 
+"Training Phrase Potential: remove grande SERIOUS STRAWBERRY from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['SERIOUS STRAWBERRY'] 
+Extracted Size: ['medium'] 
+#########: 1, 260 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: large 
+Drink Potential: COFFEE 
+Size Potential: big 
+"Training Phrase Potential: remove big COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 261 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: large 
+Drink Potential: COFFEE 
+Size Potential: huge 
+"Training Phrase Potential: remove huge COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 262 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: large 
+Drink Potential: COFFEE 
+Size Potential: large 
+"Training Phrase Potential: remove large COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 263 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: large 
+Drink Potential: COFFEE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['large'] 
+#########: 1, 264 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: medium 
+Drink Potential: COFFEE 
+Size Potential: medium 
+"Training Phrase Potential: remove medium COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 265 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: medium 
+Drink Potential: COFFEE 
+Size Potential: grande 
+"Training Phrase Potential: remove grande COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['medium'] 
+#########: 1, 266 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: small 
+Drink Potential: COFFEE 
+Size Potential: little 
+"Training Phrase Potential: remove little COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 267 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: small 
+Drink Potential: COFFEE 
+Size Potential: short 
+"Training Phrase Potential: remove short COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 269 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Golden Size: small 
+Drink Potential: COFFEE 
+Size Potential: tall 
+"Training Phrase Potential: remove tall COFFEE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COFFEE'] 
+Extracted Size: ['small'] 
+#########: 1, 270 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: large 
+Drink Potential: JAVA CHIP 
+Size Potential: big 
+"Training Phrase Potential: remove big JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 271 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: large 
+Drink Potential: JAVA CHIP 
+Size Potential: huge 
+"Training Phrase Potential: remove huge JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 272 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: large 
+Drink Potential: JAVA CHIP 
+Size Potential: large 
+"Training Phrase Potential: remove large JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 273 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: large 
+Drink Potential: JAVA CHIP 
+Size Potential: venti 
+"Training Phrase Potential: remove venti JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: [] 
+Extracted Size: ['large'] 
+#########: 1, 274 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: medium 
+Drink Potential: JAVA CHIP 
+Size Potential: medium 
+"Training Phrase Potential: remove medium JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['JAVA CHIP'] 
+Extracted Size: ['large'] 
+#########: 1, 275 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Golden Size: medium 
+Drink Potential: JAVA CHIP 
+Size Potential: grande 
+"Training Phrase Potential: remove grande JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['JAVA CHIP'] 
+Extracted Size: ['medium'] 
+#########: 1, 280 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: large 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: big 
+"Training Phrase Potential: remove big VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 281 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: large 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: huge 
+"Training Phrase Potential: remove huge VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 282 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: large 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: large 
+"Training Phrase Potential: remove large VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 283 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: large 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: venti 
+"Training Phrase Potential: remove venti VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 284 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: medium 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: medium 
+"Training Phrase Potential: remove medium VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 285 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: medium 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: grande 
+"Training Phrase Potential: remove grande VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 286 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: small 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: little 
+"Training Phrase Potential: remove little VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 287 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: small 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: short 
+"Training Phrase Potential: remove short VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 289 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Golden Size: small 
+Drink Potential: VANILLA BEAN CREME 
+Size Potential: tall 
+"Training Phrase Potential: remove tall VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VANILLA BEAN CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 290 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: large 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: big 
+"Training Phrase Potential: remove big DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 291 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: large 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: huge 
+"Training Phrase Potential: remove huge DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 292 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: large 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: large 
+"Training Phrase Potential: remove large DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 293 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: large 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: venti 
+"Training Phrase Potential: remove venti DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 294 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: medium 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: medium 
+"Training Phrase Potential: remove medium DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 295 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: medium 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: grande 
+"Training Phrase Potential: remove grande DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 296 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: small 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: little 
+"Training Phrase Potential: remove little DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 297 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: small 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: short 
+"Training Phrase Potential: remove short DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 299 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Golden Size: small 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+Size Potential: tall 
+"Training Phrase Potential: remove tall DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['DOUBLE CHOCOLATY CHIP CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 300 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: large 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: big 
+"Training Phrase Potential: remove big MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 301 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: large 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: huge 
+"Training Phrase Potential: remove huge MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 302 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: large 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: large 
+"Training Phrase Potential: remove large MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 303 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: large 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: venti 
+"Training Phrase Potential: remove venti MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['large'] 
+#########: 1, 304 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: medium 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: medium 
+"Training Phrase Potential: remove medium MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 305 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: medium 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: grande 
+"Training Phrase Potential: remove grande MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['medium'] 
+#########: 1, 306 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: small 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: little 
+"Training Phrase Potential: remove little MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 307 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: small 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: short 
+"Training Phrase Potential: remove short MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 309 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Golden Size: small 
+Drink Potential: MATCHA GREEN TEA CREME 
+Size Potential: tall 
+"Training Phrase Potential: remove tall MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 310 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: big 
+"Training Phrase Potential: remove big HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MATCHA GREEN TEA CREME'] 
+Extracted Size: ['small'] 
+#########: 1, 311 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: huge 
+"Training Phrase Potential: remove huge HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['large'] 
+#########: 1, 312 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: large 
+"Training Phrase Potential: remove large HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['large'] 
+#########: 1, 313 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: large 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: venti 
+"Training Phrase Potential: remove venti HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['large'] 
+#########: 1, 314 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: medium 
+"Training Phrase Potential: remove medium HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['large'] 
+#########: 1, 315 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: medium 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: grande 
+"Training Phrase Potential: remove grande HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['medium'] 
+#########: 1, 316 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: little 
+"Training Phrase Potential: remove little HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['medium'] 
+#########: 1, 317 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: short 
+"Training Phrase Potential: remove short HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['small'] 
+#########: 1, 318 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: small 
+"Training Phrase Potential: remove small HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['small'] 
+#########: 1, 319 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Golden Size: small 
+Drink Potential: HORCHATA ALMOND MILK 
+Size Potential: tall 
+"Training Phrase Potential: remove tall HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['HORCHATA ALMOND MILK'] 
+Extracted Size: ['small'] 
+#########: 1, 323 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY BANANA 
+Golden Size: large 
+Drink Potential: STRAWBERRY BANANA 
+Size Potential: venti 
+"Training Phrase Potential: remove venti STRAWBERRY BANANA from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STRAWBERRY BANANA'] 
+Extracted Size: ['large'] 
+#########: 1, 333 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MANGO DRAGONFRUIT 
+Golden Size: large 
+Drink Potential: MANGO DRAGONFRUIT 
+Size Potential: venti 
+"Training Phrase Potential: remove venti MANGO DRAGONFRUIT from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MANGO DRAGONFRUIT'] 
+Extracted Size: ['large'] 
+#########: 1, 335 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MANGO DRAGONFRUIT 
+Golden Size: medium 
+Drink Potential: MANGO DRAGONFRUIT 
+Size Potential: grande 
+"Training Phrase Potential: remove grande MANGO DRAGONFRUIT from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['MANGO DRAGONFRUIT'] 
+Extracted Size: ['medium'] 
+#########: 1, 343 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY ACAI 
+Golden Size: large 
+Drink Potential: STRAWBERRY ACAI 
+Size Potential: venti 
+"Training Phrase Potential: remove venti STRAWBERRY ACAI from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['STRAWBERRY ACAI'] 
+Extracted Size: ['large'] 
+#########: 1, 350 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Golden Size: large 
+Drink Potential: VERY BERRY HIBISCUS 
+Size Potential: big 
+"Training Phrase Potential: remove big VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 351 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Golden Size: large 
+Drink Potential: VERY BERRY HIBISCUS 
+Size Potential: huge 
+"Training Phrase Potential: remove huge VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 352 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Golden Size: large 
+Drink Potential: VERY BERRY HIBISCUS 
+Size Potential: large 
+"Training Phrase Potential: remove large VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: cancel_item_intent 
+Extracted Drink:  
+Extracted Size: large 
+#########: 1, 353 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Golden Size: large 
+Drink Potential: VERY BERRY HIBISCUS 
+Size Potential: venti 
+"Training Phrase Potential: remove venti VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VERY BERRY HIBISCUS'] 
+Extracted Size: ['large'] 
+#########: 1, 355 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Golden Size: medium 
+Drink Potential: VERY BERRY HIBISCUS 
+Size Potential: grande 
+"Training Phrase Potential: remove grande VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['VERY BERRY HIBISCUS'] 
+Extracted Size: ['medium'] 
+#########: 1, 363 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COOL LIME 
+Golden Size: large 
+Drink Potential: COOL LIME 
+Size Potential: venti 
+"Training Phrase Potential: remove venti COOL LIME from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['COOL LIME'] 
+Extracted Size: ['large'] 
+#########: 1, 373 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CHESTNUT PRALINE LATTE 
+Golden Size: large 
+Drink Potential: PRALINE LATTE 
+Size Potential: venti 
+"Training Phrase Potential: remove venti PRALINE LATTE from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CHESTNUT PRALINE LATTE'] 
+Extracted Size: ['large'] 
+#########: 1, 383 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLOUD MACCHIATO 
+Golden Size: large 
+Drink Potential: CLOUD MACCHIATO 
+Size Potential: venti 
+"Training Phrase Potential: remove venti CLOUD MACCHIATO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CLOUD MACCHIATO'] 
+Extracted Size: ['large'] 
+#########: 1, 385 
+Training Phrase: remove {size} {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLOUD MACCHIATO 
+Golden Size: medium 
+Drink Potential: CLOUD MACCHIATO 
+Size Potential: grande 
+"Training Phrase Potential: remove grande CLOUD MACCHIATO from the order 
+>>> Result: {} 
+Test Status: False 
+"Extracted Intent: order_intent 
+Extracted Drink: ['CLOUD MACCHIATO'] 
+Extracted Size: ['medium'] 

@@ -1,0 +1,1289 @@
+Test tuples count: 39 
+Training phrases count: 3 
+#########: 0, 0 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+"Training Phrase Potential: cancel  ICED CARAMEL MACCHIATOS 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 0, 1 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: macchiatos 
+"Training Phrase Potential: cancel  macchiatos 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 0, 2 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: caramel macchiatos 
+"Training Phrase Potential: cancel  caramel macchiatos 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 0, 3 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+"Training Phrase Potential: cancel  WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 0, 4 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: white mocha 
+"Training Phrase Potential: cancel  white mocha 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 0, 5 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Drink Potential: CAFFE MOCHA 
+"Training Phrase Potential: cancel  CAFFE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE MOCHA 
+Extracted Size:  
+#########: 0, 6 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: CAFFE LATTE 
+"Training Phrase Potential: cancel  CAFFE LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 0, 7 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: latte 
+"Training Phrase Potential: cancel  latte 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 0, 8 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: lattes 
+"Training Phrase Potential: cancel  lattes 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 0, 9 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: FLAT WHITE 
+Drink Potential: FLAT WHITE 
+"Training Phrase Potential: cancel  FLAT WHITE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FLAT WHITE 
+Extracted Size:  
+#########: 0, 10 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Drink Potential: STARBUCKS COLD BREW 
+"Training Phrase Potential: cancel  STARBUCKS COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STARBUCKS COLD BREW 
+Extracted Size:  
+#########: 0, 11 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+"Training Phrase Potential: cancel  VANILLA SWEET CREAM COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA SWEET CREAM COLD BREW 
+Extracted Size:  
+#########: 0, 12 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Drink Potential: COLD FOAM COLD BREW 
+"Training Phrase Potential: cancel  COLD FOAM COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM COLD BREW 
+Extracted Size:  
+#########: 0, 13 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+"Training Phrase Potential: cancel  COLD FOAM ICED CAPPUCCINO 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 0, 14 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: cappuccino 
+"Training Phrase Potential: cancel  cappuccino 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 0, 15 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Drink Potential: ICED COFFEE 
+"Training Phrase Potential: cancel  ICED COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED COFFEE 
+Extracted Size:  
+#########: 0, 16 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Drink Potential: FRESHLY BREWED COFFEE 
+"Training Phrase Potential: cancel  FRESHLY BREWED COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FRESHLY BREWED COFFEE 
+Extracted Size:  
+#########: 0, 17 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Drink Potential: SHAKEN ICED TEA 
+"Training Phrase Potential: cancel  SHAKEN ICED TEA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA 
+Extracted Size:  
+#########: 0, 18 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+"Training Phrase Potential: cancel  SHAKEN ICED TEA INFUSION 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA INFUSION 
+Extracted Size:  
+#########: 0, 19 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+"Training Phrase Potential: cancel  SHAKEN ICED TEA INFUSIONS LEMONADES 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Extracted Size:  
+#########: 0, 20 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+"Training Phrase Potential: cancel  CLASSIC CHAI TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLASSIC CHAI TEA LATTE 
+Extracted Size:  
+#########: 0, 21 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+"Training Phrase Potential: cancel  LIGHTLY SWEETH CHAI TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Extracted Size:  
+#########: 0, 22 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+"Training Phrase Potential: cancel  ICED MATCHA GREEN TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED MATCHA GREEN TEA LATTE 
+Extracted Size:  
+#########: 0, 23 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Drink Potential: ULTRA CARAMEL 
+"Training Phrase Potential: cancel  ULTRA CARAMEL 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ULTRA CARAMEL 
+Extracted Size:  
+#########: 0, 24 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Drink Potential: TRIPLE MOCHA 
+"Training Phrase Potential: cancel  TRIPLE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: TRIPLE MOCHA 
+Extracted Size:  
+#########: 0, 25 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SERIOUS STRAWBERRY 
+Drink Potential: SERIOUS STRAWBERRY 
+"Training Phrase Potential: cancel  SERIOUS STRAWBERRY 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SERIOUS STRAWBERRY 
+Extracted Size:  
+#########: 0, 26 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Drink Potential: COFFEE 
+"Training Phrase Potential: cancel  COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COFFEE 
+Extracted Size:  
+#########: 0, 27 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Drink Potential: JAVA CHIP 
+"Training Phrase Potential: cancel  JAVA CHIP 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: JAVA CHIP 
+Extracted Size:  
+#########: 0, 28 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Drink Potential: VANILLA BEAN CREME 
+"Training Phrase Potential: cancel  VANILLA BEAN CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA BEAN CREME 
+Extracted Size:  
+#########: 0, 29 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+"Training Phrase Potential: cancel  DOUBLE CHOCOLATY CHIP CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: DOUBLE CHOCOLATY CHIP CREME 
+Extracted Size:  
+#########: 0, 30 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Drink Potential: MATCHA GREEN TEA CREME 
+"Training Phrase Potential: cancel  MATCHA GREEN TEA CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size:  
+#########: 0, 31 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Drink Potential: HORCHATA ALMOND MILK 
+"Training Phrase Potential: cancel  HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size:  
+#########: 0, 32 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY BANANA 
+Drink Potential: STRAWBERRY BANANA 
+"Training Phrase Potential: cancel  STRAWBERRY BANANA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY BANANA 
+Extracted Size:  
+#########: 0, 33 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: MANGO DRAGONFRUIT 
+Drink Potential: MANGO DRAGONFRUIT 
+"Training Phrase Potential: cancel  MANGO DRAGONFRUIT 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MANGO DRAGONFRUIT 
+Extracted Size:  
+#########: 0, 34 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY ACAI 
+Drink Potential: STRAWBERRY ACAI 
+"Training Phrase Potential: cancel  STRAWBERRY ACAI 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY ACAI 
+Extracted Size:  
+#########: 0, 35 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Drink Potential: VERY BERRY HIBISCUS 
+"Training Phrase Potential: cancel  VERY BERRY HIBISCUS 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VERY BERRY HIBISCUS 
+Extracted Size:  
+#########: 0, 36 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COOL LIME 
+Drink Potential: COOL LIME 
+"Training Phrase Potential: cancel  COOL LIME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COOL LIME 
+Extracted Size:  
+#########: 0, 37 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CHESTNUT PRALINE LATTE 
+Drink Potential: PRALINE LATTE 
+"Training Phrase Potential: cancel  PRALINE LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CHESTNUT PRALINE LATTE 
+Extracted Size:  
+#########: 0, 38 
+Training Phrase: cancel  {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLOUD MACCHIATO 
+Drink Potential: CLOUD MACCHIATO 
+"Training Phrase Potential: cancel  CLOUD MACCHIATO 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLOUD MACCHIATO 
+Extracted Size:  
+#########: 1, 0 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+"Training Phrase Potential: remove  ICED CARAMEL MACCHIATOS from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 1, 1 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: macchiatos 
+"Training Phrase Potential: remove  macchiatos from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 1, 2 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: caramel macchiatos 
+"Training Phrase Potential: remove  caramel macchiatos from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 1, 3 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+"Training Phrase Potential: remove  WHITE CHOCOLATE MOCHA from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 1, 4 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: white mocha 
+"Training Phrase Potential: remove  white mocha from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 1, 5 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Drink Potential: CAFFE MOCHA 
+"Training Phrase Potential: remove  CAFFE MOCHA from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE MOCHA 
+Extracted Size:  
+#########: 1, 6 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: CAFFE LATTE 
+"Training Phrase Potential: remove  CAFFE LATTE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 1, 7 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: latte 
+"Training Phrase Potential: remove  latte from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 1, 8 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: lattes 
+"Training Phrase Potential: remove  lattes from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 1, 9 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FLAT WHITE 
+Drink Potential: FLAT WHITE 
+"Training Phrase Potential: remove  FLAT WHITE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FLAT WHITE 
+Extracted Size:  
+#########: 1, 10 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Drink Potential: STARBUCKS COLD BREW 
+"Training Phrase Potential: remove  STARBUCKS COLD BREW from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STARBUCKS COLD BREW 
+Extracted Size:  
+#########: 1, 11 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+"Training Phrase Potential: remove  VANILLA SWEET CREAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA SWEET CREAM COLD BREW 
+Extracted Size:  
+#########: 1, 12 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Drink Potential: COLD FOAM COLD BREW 
+"Training Phrase Potential: remove  COLD FOAM COLD BREW from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM COLD BREW 
+Extracted Size:  
+#########: 1, 13 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+"Training Phrase Potential: remove  COLD FOAM ICED CAPPUCCINO from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 1, 14 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: cappuccino 
+"Training Phrase Potential: remove  cappuccino from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 1, 15 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Drink Potential: ICED COFFEE 
+"Training Phrase Potential: remove  ICED COFFEE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED COFFEE 
+Extracted Size:  
+#########: 1, 16 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Drink Potential: FRESHLY BREWED COFFEE 
+"Training Phrase Potential: remove  FRESHLY BREWED COFFEE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FRESHLY BREWED COFFEE 
+Extracted Size:  
+#########: 1, 17 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Drink Potential: SHAKEN ICED TEA 
+"Training Phrase Potential: remove  SHAKEN ICED TEA from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA 
+Extracted Size:  
+#########: 1, 18 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+"Training Phrase Potential: remove  SHAKEN ICED TEA INFUSION from the order 
+>>> Result: {} 
+Test Status: False 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA 
+Extracted Size:  
+#########: 1, 19 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+"Training Phrase Potential: remove  SHAKEN ICED TEA INFUSIONS LEMONADES from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Extracted Size:  
+#########: 1, 20 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+"Training Phrase Potential: remove  CLASSIC CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLASSIC CHAI TEA LATTE 
+Extracted Size:  
+#########: 1, 21 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+"Training Phrase Potential: remove  LIGHTLY SWEETH CHAI TEA LATTE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Extracted Size:  
+#########: 1, 22 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+"Training Phrase Potential: remove  ICED MATCHA GREEN TEA LATTE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED MATCHA GREEN TEA LATTE 
+Extracted Size:  
+#########: 1, 23 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Drink Potential: ULTRA CARAMEL 
+"Training Phrase Potential: remove  ULTRA CARAMEL from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ULTRA CARAMEL 
+Extracted Size:  
+#########: 1, 24 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Drink Potential: TRIPLE MOCHA 
+"Training Phrase Potential: remove  TRIPLE MOCHA from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: TRIPLE MOCHA 
+Extracted Size:  
+#########: 1, 25 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: SERIOUS STRAWBERRY 
+Drink Potential: SERIOUS STRAWBERRY 
+"Training Phrase Potential: remove  SERIOUS STRAWBERRY from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SERIOUS STRAWBERRY 
+Extracted Size:  
+#########: 1, 26 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Drink Potential: COFFEE 
+"Training Phrase Potential: remove  COFFEE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COFFEE 
+Extracted Size:  
+#########: 1, 27 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Drink Potential: JAVA CHIP 
+"Training Phrase Potential: remove  JAVA CHIP from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: JAVA CHIP 
+Extracted Size:  
+#########: 1, 28 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Drink Potential: VANILLA BEAN CREME 
+"Training Phrase Potential: remove  VANILLA BEAN CREME from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA BEAN CREME 
+Extracted Size:  
+#########: 1, 29 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+"Training Phrase Potential: remove  DOUBLE CHOCOLATY CHIP CREME from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: DOUBLE CHOCOLATY CHIP CREME 
+Extracted Size:  
+#########: 1, 30 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Drink Potential: MATCHA GREEN TEA CREME 
+"Training Phrase Potential: remove  MATCHA GREEN TEA CREME from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size:  
+#########: 1, 31 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Drink Potential: HORCHATA ALMOND MILK 
+"Training Phrase Potential: remove  HORCHATA ALMOND MILK from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size:  
+#########: 1, 32 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY BANANA 
+Drink Potential: STRAWBERRY BANANA 
+"Training Phrase Potential: remove  STRAWBERRY BANANA from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY BANANA 
+Extracted Size:  
+#########: 1, 33 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: MANGO DRAGONFRUIT 
+Drink Potential: MANGO DRAGONFRUIT 
+"Training Phrase Potential: remove  MANGO DRAGONFRUIT from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MANGO DRAGONFRUIT 
+Extracted Size:  
+#########: 1, 34 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY ACAI 
+Drink Potential: STRAWBERRY ACAI 
+"Training Phrase Potential: remove  STRAWBERRY ACAI from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY ACAI 
+Extracted Size:  
+#########: 1, 35 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Drink Potential: VERY BERRY HIBISCUS 
+"Training Phrase Potential: remove  VERY BERRY HIBISCUS from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VERY BERRY HIBISCUS 
+Extracted Size:  
+#########: 1, 36 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: COOL LIME 
+Drink Potential: COOL LIME 
+"Training Phrase Potential: remove  COOL LIME from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COOL LIME 
+Extracted Size:  
+#########: 1, 37 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CHESTNUT PRALINE LATTE 
+Drink Potential: PRALINE LATTE 
+"Training Phrase Potential: remove  PRALINE LATTE from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CHESTNUT PRALINE LATTE 
+Extracted Size:  
+#########: 1, 38 
+Training Phrase: remove  {drink} from the order 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLOUD MACCHIATO 
+Drink Potential: CLOUD MACCHIATO 
+"Training Phrase Potential: remove  CLOUD MACCHIATO from the order 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLOUD MACCHIATO 
+Extracted Size:  
+#########: 2, 0 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: ICED CARAMEL MACCHIATOS 
+"Training Phrase Potential: Can you cancel the ICED CARAMEL MACCHIATOS 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 2, 1 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: macchiatos 
+"Training Phrase Potential: Can you cancel the macchiatos 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 2, 2 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED CARAMEL MACCHIATOS 
+Drink Potential: caramel macchiatos 
+"Training Phrase Potential: Can you cancel the caramel macchiatos 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED CARAMEL MACCHIATOS 
+Extracted Size:  
+#########: 2, 3 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: WHITE CHOCOLATE MOCHA 
+"Training Phrase Potential: Can you cancel the WHITE CHOCOLATE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 2, 4 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: WHITE CHOCOLATE MOCHA 
+Drink Potential: white mocha 
+"Training Phrase Potential: Can you cancel the white mocha 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: WHITE CHOCOLATE MOCHA 
+Extracted Size:  
+#########: 2, 5 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE MOCHA 
+Drink Potential: CAFFE MOCHA 
+"Training Phrase Potential: Can you cancel the CAFFE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE MOCHA 
+Extracted Size:  
+#########: 2, 6 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: CAFFE LATTE 
+"Training Phrase Potential: Can you cancel the CAFFE LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 2, 7 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: latte 
+"Training Phrase Potential: Can you cancel the latte 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 2, 8 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CAFFE LATTE 
+Drink Potential: lattes 
+"Training Phrase Potential: Can you cancel the lattes 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CAFFE LATTE 
+Extracted Size:  
+#########: 2, 9 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: FLAT WHITE 
+Drink Potential: FLAT WHITE 
+"Training Phrase Potential: Can you cancel the FLAT WHITE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FLAT WHITE 
+Extracted Size:  
+#########: 2, 10 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STARBUCKS COLD BREW 
+Drink Potential: STARBUCKS COLD BREW 
+"Training Phrase Potential: Can you cancel the STARBUCKS COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STARBUCKS COLD BREW 
+Extracted Size:  
+#########: 2, 11 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA SWEET CREAM COLD BREW 
+Drink Potential: VANILLA SWEET CREAM COLD BREW 
+"Training Phrase Potential: Can you cancel the VANILLA SWEET CREAM COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA SWEET CREAM COLD BREW 
+Extracted Size:  
+#########: 2, 12 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM COLD BREW 
+Drink Potential: COLD FOAM COLD BREW 
+"Training Phrase Potential: Can you cancel the COLD FOAM COLD BREW 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM COLD BREW 
+Extracted Size:  
+#########: 2, 13 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: COLD FOAM ICED CAPPUCCINO 
+"Training Phrase Potential: Can you cancel the COLD FOAM ICED CAPPUCCINO 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 2, 14 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COLD FOAM ICED CAPPUCCINO 
+Drink Potential: cappuccino 
+"Training Phrase Potential: Can you cancel the cappuccino 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COLD FOAM ICED CAPPUCCINO 
+Extracted Size:  
+#########: 2, 15 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED COFFEE 
+Drink Potential: ICED COFFEE 
+"Training Phrase Potential: Can you cancel the ICED COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED COFFEE 
+Extracted Size:  
+#########: 2, 16 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: FRESHLY BREWED COFFEE 
+Drink Potential: FRESHLY BREWED COFFEE 
+"Training Phrase Potential: Can you cancel the FRESHLY BREWED COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: FRESHLY BREWED COFFEE 
+Extracted Size:  
+#########: 2, 17 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA 
+Drink Potential: SHAKEN ICED TEA 
+"Training Phrase Potential: Can you cancel the SHAKEN ICED TEA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA 
+Extracted Size:  
+#########: 2, 18 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSION 
+Drink Potential: SHAKEN ICED TEA INFUSION 
+"Training Phrase Potential: Can you cancel the SHAKEN ICED TEA INFUSION 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA INFUSION 
+Extracted Size:  
+#########: 2, 19 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Drink Potential: SHAKEN ICED TEA INFUSIONS LEMONADES 
+"Training Phrase Potential: Can you cancel the SHAKEN ICED TEA INFUSIONS LEMONADES 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SHAKEN ICED TEA INFUSIONS LEMONADES 
+Extracted Size:  
+#########: 2, 20 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLASSIC CHAI TEA LATTE 
+Drink Potential: CLASSIC CHAI TEA LATTE 
+"Training Phrase Potential: Can you cancel the CLASSIC CHAI TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLASSIC CHAI TEA LATTE 
+Extracted Size:  
+#########: 2, 21 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Drink Potential: LIGHTLY SWEETH CHAI TEA LATTE 
+"Training Phrase Potential: Can you cancel the LIGHTLY SWEETH CHAI TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: LIGHTLY SWEETH CHAI TEA LATTE 
+Extracted Size:  
+#########: 2, 22 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ICED MATCHA GREEN TEA LATTE 
+Drink Potential: ICED MATCHA GREEN TEA LATTE 
+"Training Phrase Potential: Can you cancel the ICED MATCHA GREEN TEA LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ICED MATCHA GREEN TEA LATTE 
+Extracted Size:  
+#########: 2, 23 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: ULTRA CARAMEL 
+Drink Potential: ULTRA CARAMEL 
+"Training Phrase Potential: Can you cancel the ULTRA CARAMEL 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: ULTRA CARAMEL 
+Extracted Size:  
+#########: 2, 24 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: TRIPLE MOCHA 
+Drink Potential: TRIPLE MOCHA 
+"Training Phrase Potential: Can you cancel the TRIPLE MOCHA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: TRIPLE MOCHA 
+Extracted Size:  
+#########: 2, 25 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: SERIOUS STRAWBERRY 
+Drink Potential: SERIOUS STRAWBERRY 
+"Training Phrase Potential: Can you cancel the SERIOUS STRAWBERRY 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: SERIOUS STRAWBERRY 
+Extracted Size:  
+#########: 2, 26 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COFFEE 
+Drink Potential: COFFEE 
+"Training Phrase Potential: Can you cancel the COFFEE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COFFEE 
+Extracted Size:  
+#########: 2, 27 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: JAVA CHIP 
+Drink Potential: JAVA CHIP 
+"Training Phrase Potential: Can you cancel the JAVA CHIP 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: JAVA CHIP 
+Extracted Size:  
+#########: 2, 28 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VANILLA BEAN CREME 
+Drink Potential: VANILLA BEAN CREME 
+"Training Phrase Potential: Can you cancel the VANILLA BEAN CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VANILLA BEAN CREME 
+Extracted Size:  
+#########: 2, 29 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: DOUBLE CHOCOLATY CHIP CREME 
+Drink Potential: DOUBLE CHOCOLATY CHIP CREME 
+"Training Phrase Potential: Can you cancel the DOUBLE CHOCOLATY CHIP CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: DOUBLE CHOCOLATY CHIP CREME 
+Extracted Size:  
+#########: 2, 30 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: MATCHA GREEN TEA CREME 
+Drink Potential: MATCHA GREEN TEA CREME 
+"Training Phrase Potential: Can you cancel the MATCHA GREEN TEA CREME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MATCHA GREEN TEA CREME 
+Extracted Size:  
+#########: 2, 31 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: HORCHATA ALMOND MILK 
+Drink Potential: HORCHATA ALMOND MILK 
+"Training Phrase Potential: Can you cancel the HORCHATA ALMOND MILK 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: HORCHATA ALMOND MILK 
+Extracted Size:  
+#########: 2, 32 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY BANANA 
+Drink Potential: STRAWBERRY BANANA 
+"Training Phrase Potential: Can you cancel the STRAWBERRY BANANA 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY BANANA 
+Extracted Size:  
+#########: 2, 33 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: MANGO DRAGONFRUIT 
+Drink Potential: MANGO DRAGONFRUIT 
+"Training Phrase Potential: Can you cancel the MANGO DRAGONFRUIT 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: MANGO DRAGONFRUIT 
+Extracted Size:  
+#########: 2, 34 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: STRAWBERRY ACAI 
+Drink Potential: STRAWBERRY ACAI 
+"Training Phrase Potential: Can you cancel the STRAWBERRY ACAI 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: STRAWBERRY ACAI 
+Extracted Size:  
+#########: 2, 35 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: VERY BERRY HIBISCUS 
+Drink Potential: VERY BERRY HIBISCUS 
+"Training Phrase Potential: Can you cancel the VERY BERRY HIBISCUS 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: VERY BERRY HIBISCUS 
+Extracted Size:  
+#########: 2, 36 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: COOL LIME 
+Drink Potential: COOL LIME 
+"Training Phrase Potential: Can you cancel the COOL LIME 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: COOL LIME 
+Extracted Size:  
+#########: 2, 37 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CHESTNUT PRALINE LATTE 
+Drink Potential: PRALINE LATTE 
+"Training Phrase Potential: Can you cancel the PRALINE LATTE 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CHESTNUT PRALINE LATTE 
+Extracted Size:  
+#########: 2, 38 
+Training Phrase: Can you cancel the {drink} 
+Golden Intent: cancel_item_intent 
+Golden Drink: CLOUD MACCHIATO 
+Drink Potential: CLOUD MACCHIATO 
+"Training Phrase Potential: Can you cancel the CLOUD MACCHIATO 
+>>> Result: {} 
+Test Status: True 
+Extracted Intent: cancel_item_intent 
+Extracted Drink: CLOUD MACCHIATO 
+Extracted Size:  
