@@ -3,8 +3,8 @@ from certificates import Certificates
 
 class Config:
     
-    GOOGLE_PROJECT_ID = "delete-this-vjdftp"
-    SESSION_ID = "delete-this-vjdftp-session"
+    GOOGLE_PROJECT_ID = "newagent-frrcix"
+    SESSION_ID = "newagent-frrcix-session"
 
     CURRENT_ORDER_COLLECTION = u'current_order'
     HISTORY_COLLECTION = u'current_item_count'
