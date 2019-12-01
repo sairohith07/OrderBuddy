@@ -54,28 +54,23 @@ class SEntity:
                 #     print(entity.value, entity.synonyms)
         return entity_type_dict
 
-sentity = SEntity()
-entity_list = sentity.list()
-drink_entity_id = entity_list['drink']
-drinks = sentity.get(drink_entity_id)['drink']['entity']
-size_entity_id = entity_list['size']
-sizes = sentity.get(size_entity_id)['size']['entity']
-for drink in  drinks:
-    drink_synonyms = drinks[drink]
-    for size in sizes:
-        size_synonyms = sizes[size]
-        for drink_synonym in drink_synonyms:
-            for size_synonym in size_synonyms:
-                print(drink, size, drink_synonym, size_synonym)
-                for training_phrase in TestCasesData.order_intent_drink_size_training_phrases:
-                    # Replace the drink and the size
-                    training_phrase = training_phrase.replace('{drink}', drink_synonym)
-                    training_phrase = training_phrase.replace('{size}', size_synonym)
-
-
-
-
-
-
-print(drinks)
-print(sizes)
+# sentity = SEntity()
+# entity_list = sentity.list()
+# drink_entity_id = entity_list['drink']
+# drinks = sentity.get(drink_entity_id)['drink']['entity']
+# size_entity_id = entity_list['size']
+# sizes = sentity.get(size_entity_id)['size']['entity']
+# for drink in  drinks:
+#     drink_synonyms = drinks[drink]
+#     for size in sizes:
+#         size_synonyms = sizes[size]
+#         for drink_synonym in drink_synonyms:
+#             for size_synonym in size_synonyms:
+#                 print(drink, size, drink_synonym, size_synonym)
+#                 for training_phrase in TestCasesData.order_intent_drink_size_training_phrases:
+#                     # Replace the drink and the size
+#                     training_phrase = training_phrase.replace('{drink}', drink_synonym)
+#                     training_phrase = training_phrase.replace('{size}', size_synonym)
+#
+# print(drinks)
+# print(sizes)

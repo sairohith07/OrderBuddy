@@ -78,7 +78,7 @@ class TestOrderIntentClient:
 
                 # Intent Check
                 assert response.query_result.intent.display_name == golden_intent
-                assert parameters['drink'][0] ==  golden_drink
+                assert parameters['drink'][0] == golden_drink
                 assert parameters['size'][0] == golden_size
 
                 time.sleep(5)
