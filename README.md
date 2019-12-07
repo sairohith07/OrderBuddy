@@ -41,7 +41,7 @@ On a high level, we have the user who is facing the Google voice assistant. Any 
 A sample conversation in below figure shows the transition of intents based on user’s utterances and context mapping, along with responses.As seen in the figure mentioned, a typical user wishes to have a small coffee in first figure of the flow. Upon receiving user’s voice input, it is converted to text. The intent is identified and agent looks for required entities to fulfill the order and hence prompts the user to specify, i.e., customization (second figure in the flow). Once the slot-filling (required entities) is accomplished, the Firestore is updated with the current order information for the user as part of the business logic and the user is notified about the same, including in response if he wants to add anything more. 
 The user adds another drink to the order (third figure in the flow), without any customization (fourth figure in the flow). Again the user is asked if they would like to add to the order. Here, the user does not want to add anything else to their order, which results in completion of the entire order of which the user is notified (fifth figure in the flow).
 
-![alt text](https://github.com/sairohith07/OrderBuddy/tree/master/images/order_flow_2.png)
+![alt text](https://github.com/sairohith07/OrderBuddy/tree/master/images/order_flow_3.png)
 
 In order to evaluate how well the the voice based ordering system is performing, two main functionalities - intent detection and entity extraction were tested.A set of testing phrases consisting of all possible intents and entities had to be formu- lated along with the golden truth. In order to avoid bias in testing phrases, following were the different techniques used in collection of intent phrases.
 - Manual collection from a coffee shop
@@ -81,7 +81,7 @@ Inc.,Sunnyvale,CA
 
 \[4\] **Google Cloud DialogFlow** : *https://cloud.google.com/dialogflow/docs/reference/rest/v2- overview*.
 
-\[5\] **Brenes, David Gayo-Avello, Daniel and Pérez-González, Kilian** 
+\[5\] **Brenes, David Gayo-Avello, Daniel and Pérez-González, Kilian** 
 ***Survey and evaluation of query intent detection methods*** 
 Proceedings of Workshop on Web Search Click Data, WSCD’09.
 10.1145/1507509.1507510
